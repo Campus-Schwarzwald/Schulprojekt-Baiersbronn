@@ -49,6 +49,10 @@ $$s=v*t$$
 - $v$ Geschwindigkeit $[\dfrac{m}{s}]$
 - $v$ Zeit $[s]$
 
+Wir müssen die Entfernung noch durch zwei teilen da wir nicht die gesamte Strecke ausrechnen wollen, sondern nur den Hinweg bis der Ultraschall auf ein Objekt trifft. Das ist dann die benötigte Entfernung.
+
+$$s=\dfrac{v*t}{2}
+
 
 
 
