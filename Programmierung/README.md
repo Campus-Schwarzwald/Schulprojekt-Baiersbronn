@@ -44,19 +44,32 @@ Das Prinzip ist denkbar einfach: Zunächst einmal wird ein kurzer, hochfrequente
 
 ## Physik/Mathematik
 Die Formel für gleichförmige Bewegung lautet:
-$$s=v*t$$
+$$s=v_Schall*t$$
 - $s$ Weg $[m]$
 - $v$ Geschwindigkeit $[\dfrac{m}{s}]$
 - $v$ Zeit $[s]$
 
 Wir müssen die Entfernung noch durch zwei teilen da wir nicht die gesamte Strecke ausrechnen wollen, sondern nur den Hinweg bis der Ultraschall auf ein Objekt trifft. Das ist dann die benötigte Entfernung.
 
-$$s=\dfrac{v*t}{2}$$
+$$s=\dfrac{v_Schall*t}{2}$$
 
 Jetzt haben wir eine Formel für die Entfernung zu einem Objekt. Jedoch kennen wir $t$ und $s$ nicht. $t$ wird glückerweiße von unserem Sensor ermittelt. Die Schallgeschwindigkeit $v$ müssen wir im nächsten Schritt ermitteln.
 
 Für die Schallgeschwindigkeit in Gasen gilt:
-$$v=\sqrt{\dfrac{\kappa*p}{\rho}}$$
+$$v_Schall=\sqrt{\dfrac{\kappa*p_Umgebung}{\rho}}$$
+-$\kappa$ Isentropenexponent $[-]$
+-$\p$ Druck $[Pa]$
+-$\rho$ Dichte $[\dfrac{kg}{m^3}]$
+
+Die Gleichung lässt sich aber noch etwas handlicher gestalten. Unter der Annahme das sich die Luft in der Umgebung wie ein ideales Gas verhält gilt die Gleichung für das ideale Gas:
+$$p_Umgebung*V=m*R_Luft*T_Umgebung$$
+Diese Gleichung lässt sich umstellen zu:
+$$\dfrac{m}{V}=\dfrac{p}{R_Luft*T_Umgebung}$$
+Der Ausdruck $\dfrac{m}{V}$ entsprich der Dichte $\rho_Luft$
+$$\rho=\dfrac{p_Umgebung}{R_Luft*T_Umgebung}$$
+Dies Gleichung können wir nun in unsere Schallgeschwindigkeitsgleichung einsetzen. Diese wird dann zu:
+$$v_Schall=\sqrt{\kappa*R_Luft*T_Umgebung}$$
+
 
 
 
