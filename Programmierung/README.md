@@ -30,3 +30,7 @@ The Goal is to build knowledge inside of the Team as well as to provide a basis 
 ## How to avoid obstacles
 - ratio distance speed of the car 
 - Reaction Time 
+
+
+# Ultraschall-Sensor
+___
