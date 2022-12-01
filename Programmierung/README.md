@@ -46,7 +46,7 @@ Das Prinzip ist denkbar einfach: Zunächst einmal wird ein kurzer, hochfrequente
 Die Formel für gleichförmige Bewegung lautet:
 $$s=v_s*t$$
 - $s$ Weg $[m]$
-- $v$ Geschwindigkeit $[\dfrac{m}{s}]$
+- $v$ Geschwindigkeit Schall $[\dfrac{m}{s}]$
 - $v$ Zeit $[s]$
 
 Wir müssen die Entfernung noch durch zwei teilen da wir nicht die gesamte Strecke ausrechnen wollen, sondern nur den Hinweg bis der Ultraschall auf ein Objekt trifft. Das ist dann die benötigte Entfernung.
@@ -56,7 +56,7 @@ $$s=\dfrac{v_s*t}{2}$$
 Jetzt haben wir eine Formel für die Entfernung zu einem Objekt. Jedoch kennen wir $t$ und $s$ nicht. $t$ wird glückerweiße von unserem Sensor ermittelt. Die Schallgeschwindigkeit $v$ müssen wir im nächsten Schritt ermitteln.
 
 Für die Schallgeschwindigkeit in Gasen gilt:
-$$v_s=\sqrt{\dfrac{\kappa*p_u}{\rho}}$$
+$$v_s=\sqrt{\dfrac{\kappa*p_u}{\rho_l}}$$
 -$\kappa$ Isentropenexponent $[-]$
 -$\p$ Druck $[Pa]$
 -$\rho$ Dichte $[\dfrac{kg}{m^3}]$
