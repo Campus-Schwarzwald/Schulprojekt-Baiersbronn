@@ -51,7 +51,12 @@ $$s=v*t$$
 
 Wir müssen die Entfernung noch durch zwei teilen da wir nicht die gesamte Strecke ausrechnen wollen, sondern nur den Hinweg bis der Ultraschall auf ein Objekt trifft. Das ist dann die benötigte Entfernung.
 
-$$s=\dfrac{v*t}{2}
+$$s=\dfrac{v*t}{2}$$
+
+Jetzt haben wir eine Formel für die Entfernung zu einem Objekt. Jedoch kennen wir $t$ und $s$ nicht. $t$ wird glückerweiße von unserem Sensor ermittelt. Die Schallgeschwindigkeit $v$ müssen wir im nächsten Schritt ermitteln.
+
+Für die Schallgeschwindigkeit in Gasen gilt:
+§§v=\sqrt{\dfrac{\kappa*p}{\rho}}$$
 
 
 
