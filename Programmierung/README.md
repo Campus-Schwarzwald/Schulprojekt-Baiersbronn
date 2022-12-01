@@ -69,13 +69,13 @@ Diese Gleichung lässt sich umstellen zu:
 
 $$\dfrac{m}{V}=\dfrac{p}{R_l*T_U}$$
 
-Der Ausdruck $\dfrac{m}{V}$ entsprich der Dichte $\rho_l$
+Der Ausdruck $\dfrac{m}{V}$ entsprich der Dichte $\rho_l$:
 
 $$\rho_l=\dfrac{p_u}{R_l*T_u}$$
 
 Dies Gleichung können wir nun in unsere Schallgeschwindigkeitsgleichung einsetzen. Diese wird dann zu:
 
-$$v_s=\sqrt{\kappa*R_l*T_u}$$
+$$v_s=\sqrt{\kappa * R_l * T_u}$$
 
 
 
