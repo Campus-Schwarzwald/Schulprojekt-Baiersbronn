@@ -42,6 +42,14 @@ Das Prinzip ist denkbar einfach: Zunächst einmal wird ein kurzer, hochfrequente
 
 ![ultraschallprinzip] (Bilder/ultraschallprinzip.png?raw=true "ultraschallprinzp")
 
+## Physik/Mathematik
+Die Formel für gleichförmige Bewegung lautet:
+$$s=v*t$$
+- $s$ Weg $[m]$
+- $v$ Geschwindigkeit $[\dfrac{m}{s}]$
+- $v$ Zeit $[s]$
+
+
 
 
 
