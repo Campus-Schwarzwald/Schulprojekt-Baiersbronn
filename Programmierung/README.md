@@ -81,7 +81,9 @@ Dies Gleichung können wir nun in unsere Schallgeschwindigkeitsgleichung einsetz
 
 $$v_s=\sqrt{\kappa * R_l * T_u}$$
 
-
+Bei den Unbekannten $R_l$ und $\kappa$ handelt sich um Stoffwerte. Diese sind für Luft bekannt:
+- $R_l=287 [\dfrac{J}{kg * K}]$
+- $\kappa=1,402$
 
 
 
