@@ -56,7 +56,7 @@ $$s=\dfrac{v*t}{2}$$
 Jetzt haben wir eine Formel für die Entfernung zu einem Objekt. Jedoch kennen wir $t$ und $s$ nicht. $t$ wird glückerweiße von unserem Sensor ermittelt. Die Schallgeschwindigkeit $v$ müssen wir im nächsten Schritt ermitteln.
 
 Für die Schallgeschwindigkeit in Gasen gilt:
-§§v=\sqrt{\dfrac{\kappa*p}{\rho}}$$
+§§v=\sqrt{\dfrac{ \kappa*p}{ \rho}}$$
 
 
 
