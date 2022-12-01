@@ -62,15 +62,19 @@ $$v_s=\sqrt{\dfrac{\kappa*p_u}{\rho_l}}$$
 - $\rho$ Dichte $[\dfrac{kg}{m^3}]$
 
 Die Gleichung lässt sich aber noch etwas handlicher gestalten. Unter der Annahme das sich die Luft in der Umgebung wie ein ideales Gas verhält gilt die Gleichung für das ideale Gas:
+
 $$p_u*V=m*R_l*T_u$$
 
 Diese Gleichung lässt sich umstellen zu:
-$$\dfrac{m}{V}=\dfrac{p}{R_L*T_U}$$
+
+$$\dfrac{m}{V}=\dfrac{p}{R_l*T_U}$$
 
 Der Ausdruck $\dfrac{m}{V}$ entsprich der Dichte $\rho_l$
-$$\rho_l=\dfrac{p_u}{R_L*T_u}$$
+
+$$\rho_l=\dfrac{p_u}{R_l*T_u}$$
 
 Dies Gleichung können wir nun in unsere Schallgeschwindigkeitsgleichung einsetzen. Diese wird dann zu:
+
 $$v_s=\sqrt{\kappa*R_l*T_u}$$
 
 
