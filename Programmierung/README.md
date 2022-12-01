@@ -57,9 +57,9 @@ Jetzt haben wir eine Formel für die Entfernung zu einem Objekt. Jedoch kennen w
 
 Für die Schallgeschwindigkeit in Gasen gilt:
 $$v_s=\sqrt{\dfrac{\kappa*p_u}{\rho_l}}$$
--$\kappa$ Isentropenexponent $[-]$
--$\p$ Druck $[Pa]$
--$\rho$ Dichte $[\dfrac{kg}{m^3}]$
+- $\kappa$ Isentropenexponent $[-]$
+- $\p$ Druck $[Pa]$
+- $\rho$ Dichte $[\dfrac{kg}{m^3}]$
 
 Die Gleichung lässt sich aber noch etwas handlicher gestalten. Unter der Annahme das sich die Luft in der Umgebung wie ein ideales Gas verhält gilt die Gleichung für das ideale Gas:
 $$p_u*V=m*R_l*T_u$$
