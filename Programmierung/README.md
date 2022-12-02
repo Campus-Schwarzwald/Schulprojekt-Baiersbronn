@@ -118,8 +118,7 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 - Gnd -> Minuspol/Grund
 
 ## Aufbau der Schaltung für den Ultraschallsensor
-
-
+![](/Bilder/Ultraschallsensor_Steckplatine.jpg)
 
 
 
