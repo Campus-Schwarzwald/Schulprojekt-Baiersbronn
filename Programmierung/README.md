@@ -89,6 +89,12 @@ Für $0°C$ ergibt das eine Schallgeschwindigkeit von:
 
 $$v_s=\sqrt{1,402 * 287 \dfrac{J}{kg * K} * 273K}=331,2 \dfrac{m}{s}$$
 
+Experimentell wurde bei $0°C$ eine $331,6 \dfrac{m}{s}$ ermittelt. Dieses Ergenis können wir nutzen um unsere Formel zu verbessern:
+
+$$\dfrac{v_s}{331,6 \dfrac{m}{s}}=\dfrac{\sqrt{\kappa * R_l * T_u}}{\kappa * R_l * 273 K}$$
+
+Die Stoffwerte lassen sich nun kürzen. Mit $\theta_u$
+
 
 
 
