@@ -99,7 +99,7 @@ $$\boxed{v_s=331,6*\sqrt{1+\dfrac{\theta_u}{273K}}}$$
 
 Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unserer ersten Gleichung kann man den Abstand ausrechnen.
 
-## Technische Daten des Ultraschallsensors
+## Technische Daten und Schaltung des Ultraschallsensors
 - Spannungsversorgung: DC 5 V
 - Stromaufnahme: 15 mA
 - Ruhestrom: < 2 mA
@@ -108,10 +108,14 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 - Auflösung: 0,3 cm HC-SR04, 0,2 cm HY-SRF05
 - Messkegel: ca. 15°
 - Messungen pro Sekunde: max. 50 HC-SR04, max. 20 HY-SRF05
-- Abmessungen: ca. 45*20*15 mm
+- Abmessungen: ca. 45 * 20 * 15 mm
 
 ![](/Bilder/hc-sr04.jpg)
 
+- Vcc -> Pluspol
+- Trig -> Triggersignal
+- Echo -> Echosignal 
+- Gnd -> Minuspol/Grund
 
 
 
