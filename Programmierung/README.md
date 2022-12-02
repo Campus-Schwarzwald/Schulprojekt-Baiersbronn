@@ -97,6 +97,9 @@ Die Stoffwerte lassen sich nun kürzen. Mit $T_u=\theta_u+T_0$ dabei ist $T_0=27
 
 $$\boxed{v_s=331,6*\sqrt{1+\dfrac{\theta_u}{273K}}}$$
 
+Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unserer ersten Gleichung kann man den Abstand ausrechnen.
+
+
 
 
 
