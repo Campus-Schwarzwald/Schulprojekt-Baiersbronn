@@ -85,7 +85,9 @@ Bei den Unbekannten $R_l$ und $\kappa$ handelt sich um Stoffwerte. Diese sind f�
 - $R_l=287 [\dfrac{J}{kg * K}]$
 - $\kappa=1,402$
 
+Für $0°C$ ergibt das eine Schallgeschwindigkeit von:
 
+$$v_s=\sqrt{1,402 * 287 \dfrac{J}{kg * K} * 273K}=331,2 \dfrac{m}{s}$$
 
 
 
