@@ -99,7 +99,7 @@ $$\boxed{v_s=331,6*\sqrt{1+\dfrac{\theta_u}{273K}}}$$
 
 Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unserer ersten Gleichung kann man den Abstand ausrechnen.
 
-## Technische Daten und Schaltung des Ultraschallsensors
+## Technische Daten des Ultraschallsensors
 - Spannungsversorgung: DC 5 V
 - Stromaufnahme: 15 mA
 - Ruhestrom: < 2 mA
@@ -117,6 +117,7 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 - Echo -> Echosignal 
 - Gnd -> Minuspol/Grund
 
+## Aufbau der Schaltung für den Ultraschallsensor
 
 
 
