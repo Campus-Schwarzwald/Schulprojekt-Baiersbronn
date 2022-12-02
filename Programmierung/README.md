@@ -110,6 +110,7 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 - Messungen pro Sekunde: max. 50 HC-SR04, max. 20 HY-SRF05
 - Abmessungen: ca. 45*20*15 mm
 
+![ultraschallsensor] (Bilder/ultraschallprinzip.png?raw=true "ultraschallsensor")
 
 
 
