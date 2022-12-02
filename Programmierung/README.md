@@ -40,7 +40,7 @@ Aufgrund der nützlichen Features stellen Ultraschallsensoren auch eine bedeutsa
 ## Funktionsweise
 Das Prinzip ist denkbar einfach: Zunächst einmal wird ein kurzer, hochfrequenter Schallimpuls abgesendet. Sobald der Impuls auf ein Objekt stößt, kommt es zu einer Reflexion. Dies wiederum ruft ein Echo hervor, das schließlich wieder beim Sensor ankommt. Anhand der Zeitspanne, die zwischen der Abgabe und dem Empfangen des Impulses liegt, errechnet der Sensor zuverlässig den Abstand zum jeweiligen Objekt.
 
-![ultraschallprinzip] (Bilder/ultraschallprinzip.png?raw=true "ultraschallprinzp")
+![](Bilder/ultraschallprinzip.png)
 
 ## Physik/Mathematik
 Die Formel für gleichförmige Bewegung lautet:
