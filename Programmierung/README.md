@@ -118,6 +118,8 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 - Gnd -> Minuspol/Grund
 
 ## Aufbau der Schaltung für den Ultraschallsensor
+Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannungsquelle. Wie man die einzelnen Kontakte miteinander verbindet findet ihr in dem Schaltplan.
+
 ![](/Bilder/Ultraschallsensor_Steckplatine.jpg)
 
 
