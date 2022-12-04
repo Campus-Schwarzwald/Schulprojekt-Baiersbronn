@@ -124,21 +124,32 @@ Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannun
 
 ## Programmierung des Ultraschallsensors 
 ```C
+/*
+ * Schulprojekt
+ * Code für Ultraschallsensor hc-r04
+ * Aktuell für einen ESP32
+ * 
+ * Alexander Huss, William Lopez, Christof Schillinger
+ * Campus Schwarzwald
+ */
+
 #define TRIG_PIN 23 // Pin Trigger
 #define ECHO_PIN 22 // Pin Echo
 
 //Defnition der Variablen
-float duration_us, distance_cm, temperature_celsius;
+float duration_us, distance_cm;
+//Defintion der Umgebungstemperatur
+float temperature_celsius = 20;
 
 //Funktion zur Berechnung der Schallgeschwindigkeit 
-float calcSpeed(float temperature_celsius) {
-  return (331.6*std::sqrt(1+(temperature_celsius/273)));
+float calcSpeed(float *temperature_celsius) {
+  return (331.6 * std::sqrt(1+(*temperature_celsius/273)));
 }
 
 //Funktion zur Berechnung der Entfernung
-float calcDistance(float duration_us){
-  float v = calcSpeed(20);
-  distance_cm = (v*duration_us)/(2*10000);
+float calcDistance(float *duration_us, float *temperature_celsius){
+  float v = calcSpeed(*temperature_celsius);
+  distance_cm = (v * *duration_us)/(2*10000);
   return (distance_cm);
 }
 
@@ -159,7 +170,7 @@ void loop() {
   // Speichern der Zeitdauer des Schalls 
   duration_us = pulseIn(ECHO_PIN, HIGH);
   // Berechnung der Entfernung
-  distance_cm = calcDistance(duration_us);
+  distance_cm = calcDistance(&duration_us, &temperature_celsius);
   // Auf Montitor ausgeben
   Serial.print("Entfernung: ");
   Serial.print(distance_cm);
