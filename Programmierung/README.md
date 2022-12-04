@@ -123,7 +123,51 @@ Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannun
 ![](/Bilder/Ultraschallsensor_Steckplatine.jpg)
 
 ## Programmierung des Ultraschallsensors 
+```C
+#define TRIG_PIN 23 // Pin Trigger
+#define ECHO_PIN 22 // Pin Echo
 
+//Defnition der Variablen
+float duration_us, distance_cm, temperature_celsius;
+
+//Funktion zur Berechnung der Schallgeschwindigkeit 
+float calcSpeed(float temperature_celsius) {
+  return (331.6*std::sqrt(1+(temperature_celsius/273)));
+}
+
+//Funktion zur Berechnung der Entfernung
+float calcDistance(float duration_us){
+  float v = calcSpeed(20);
+  distance_cm = (v*duration_us)/(2*10000);
+  return (distance_cm);
+}
+
+void setup() {
+  // Definiton des Ports
+  Serial.begin (9600);
+  // Defintion des Trigger Pin aus Ausgang
+  pinMode(TRIG_PIN, OUTPUT);
+  // Defintion des Echo Pin als Eingang
+  pinMode(ECHO_PIN, INPUT);
+}
+
+void loop() {
+  // Einen Impuls von 10 microsekunden erzeugen
+  digitalWrite(TRIG_PIN, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(TRIG_PIN, LOW);
+  // Speichern der Zeitdauer des Schalls 
+  duration_us = pulseIn(ECHO_PIN, HIGH);
+  // Berechnung der Entfernung
+  distance_cm = calcDistance(duration_us);
+  // Auf Montitor ausgeben
+  Serial.print("Entfernung: ");
+  Serial.print(distance_cm);
+  Serial.println(" cm");
+
+  delay(500);
+}
+```
 
 
 
