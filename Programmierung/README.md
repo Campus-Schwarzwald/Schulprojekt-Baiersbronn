@@ -104,7 +104,7 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 - Stromaufnahme: 15 mA
 - Ruhestrom: < 2 mA
 - Burstfrequenz: 40 kHz
-- Messbereich: ca. 2 cm bis 450 cm
+- Messbereich: ca. 2 cm bis 45 cm
 - Auflösung: 0,3 cm HC-SR04, 0,2 cm HY-SRF05
 - Messkegel: ca. 15°
 - Messungen pro Sekunde: max. 50 HC-SR04, max. 20 HY-SRF05
