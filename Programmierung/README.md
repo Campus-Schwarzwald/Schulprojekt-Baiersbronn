@@ -139,17 +139,17 @@ Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannun
 //Defnition der Variablen
 float duration_us, distance_cm;
 //Defintion der Umgebungstemperatur
-float temperature_celsius = 20;
+float temperature_celsius = 20.0;
 
 //Funktion zur Berechnung der Schallgeschwindigkeit 
-float calcSpeed(float *temperature_celsius) {
-  return (331.6 * std::sqrt(1+(*temperature_celsius/273)));
+float calcSpeed(float temperature_celsius) {
+  return (331.6 * std::sqrt(1+((temperature_celsius)/273)));
 }
 
 //Funktion zur Berechnung der Entfernung
-float calcDistance(float *duration_us, float *temperature_celsius){
-  float v = calcSpeed(*temperature_celsius);
-  distance_cm = (v * *duration_us)/(2*10000);
+float calcDistance(float duration_us, float temperature_celsius){
+  float v = calcSpeed(temperature_celsius);
+  distance_cm = (v * (duration_us))/(2*10000);
   return (distance_cm);
 }
 
@@ -170,7 +170,7 @@ void loop() {
   // Speichern der Zeitdauer des Schalls 
   duration_us = pulseIn(ECHO_PIN, HIGH);
   // Berechnung der Entfernung
-  distance_cm = calcDistance(&duration_us, &temperature_celsius);
+  distance_cm = calcDistance(duration_us, temperature_celsius);
   // Auf Montitor ausgeben
   Serial.print("Entfernung: ");
   Serial.print(distance_cm);
