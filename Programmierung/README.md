@@ -224,7 +224,7 @@ Um die Drehzahl des DC Motors zu steueren benötigen wir einen Motortreiber, da 
 
 Zur Steuerung des Motortreibers wird ein PWM-Signal verwendet. PWM steht für Pulsweitenmodulation (engl. Pulse Width Modulation). Das ist ein Rechtecksignal das eine Spannung zwischen 0V und 5V annehmen kann. Fachlich gesprochen wird bei der Pulweitenmodulation, das Verhältnis zwischen der Einschaltzeit und Periodendauer eines Rechtecksignals bei fester Grundfrequenz variiert. 
 
-![](/Bilder/Group1.jpg)
+![](/Bilder/Bild_PWM.jpg)
 
 
 
