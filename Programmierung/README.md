@@ -228,7 +228,7 @@ Zur Steuerung des Motortreibers wird ein PWM-Signal verwendet. PWM steht für Pu
 
 Die Einschaltzeit $t_{ein}$ und die Periodendauer $T=t_{ein}+t_{aus}$ wird als Tastenverhältnis $p$ bezeichnet. Das Tastenverhältnis kann Werte von $0-100%$ annehmen.
 
-$$p=\dfrac{t_{ein}}{T}=\dfrac{t_{ein}}{t_{ein}+t_{aus}}
+$$p=\dfrac{t_{ein}}{T}=\dfrac{t_{ein}}{t_{ein}+t_{aus}}$$
 
 
 
