@@ -219,7 +219,10 @@ Im Allgemeinen reichen die Stromstärken, die ein Mikrocontroller liefern kann, 
 - Maximale Leistung: 25W
 - Abmessungen:43 x 43 x 26mm
 
+## Steuerung des Motortreibers mittels PWM
+Um die Drehzahl des DC Motors zu steueren benötigen wir einen Motortreiber, da der DC Motor eine Spannung von 12V benötigt. Diese kann nicht von dem Microcontroller bereitgestellt werden. Der Microkontroller steuert jedoch den Motortreiber und welche Spannung von dem Motortreiber an den DC Motor weitergegeben wird. Diese Spannung gibt die Drehzahl des Motors vor.
 
+Zur Steuerung des Motortreibers wird ein PWM-Signal verwendet. PWM steht für Pulsweitenmodulation (engl. Pulse Width Modulation). Das ist ein Rechtecksignal das eine Spannung zwischen 0V und 5V annehmen kann. Fachlich gesprochen wird bei der Pulweitenmodulation, das Verhältnis zwischen der Einschaltzeit und Periodendauer eines Rechtecksignals bei fester Grundfrequenz variiert. 
 
 
 
