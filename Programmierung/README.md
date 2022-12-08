@@ -5,12 +5,6 @@ The Goal is to build knowledge inside of the Team as well as to provide a basis 
 - Intro to how to upload a sketch and the buttons
 - Intro to the Serial Monitor and how to setup a serial communication 
 
-## How to use a DC motor controller 
-- explain how it works (PWM)
-- Explain how to use it with an arduino 
-- schematics
-- Code snipets to test the motors
-
 ## Servomotor
 Als Servomotor bezeichnet man alle Arten von Elektromotoren, die mit einem Positionssensor für den Rotor ausgestattet sind. Diese Art von Motor ermöglicht eine sehr gute Positionskontrolle und wird sowohl in der Industrie als auch in vielen Arduino-Projekten eingesetzt.
 
@@ -50,17 +44,48 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 ### Verwendung mit einem Arduino
 ![](/Bilder/ArduinoServo.jpg)
 
+```C
+/*
+ * Schulprojekt
+ * Code für Ultraschallsensor hc-r04
+ * Aktuell für einen ESP32
+ * 
+ * Alexander Huss, William Lopez, Christof Schillinger
+ * Campus Schwarzwald
+ */
 
-- Code snipets to test the motors
+#include <Servo.h>
+
+Servo myservo;  // Erstellen eines Servo-Objekts zur Steuerung eines Servomotors
+
+int pos = 0;    // Variable zur Speicherung der Servoposition
+
+void setup() {
+  myservo.attach(6);  // verbindet das Servomotor an Pin 6 
+}
+
+void loop() {
+  for (pos = 0; pos <= 180; pos += 1) { // geht von 0 Grad bis 180 Grad in Schritten von 1 Grad
+  
+    myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+    delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+  }
+  for (pos = 180; pos >= 0; pos -= 1) { // geht von 180 Grad bis 0 Grad in Schritten von 1 Grad
+    myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+    delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+  }
+}
+```
 
 ## How to use functions (optional)
-- How to define them 
+- void
+- int, float etc
+- while, for, switch
 - How it helps make your code more readable and lighter
 
 ## How to avoid obstacles
 - ratio distance speed of the car 
 - Reaction Time 
-
 
 # Ultraschall Sensor HC-SR04
 Ultraschallsensoren eignen sich bestens dafür, Abstände zu messen und Objekte berührungslos zu erkennen.Wichtig ist, dass der Gegenstand aus einem Material besteht, das den Schall reflektieren kann. Objekte aus Metall, Holz oder Kunststoff eignen sich für die Messung folglich sehr gut. Transparente Flüssigkeiten oder Gegenstände sind kein Hindernis für den Sensor, dasselbe gilt für Schmutz, Staubwolken oder Nebel.
