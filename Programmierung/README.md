@@ -238,6 +238,8 @@ Davon ausgehend das $U_{aus}=0V$ lässt sich die Formel zu folgendem Ausdruck ve
 
 $$U_m=U_{ein} * \dfrac{t_{ein}}{t_{ein}+t_{aus}}=U_{ein} * p$$
 
-Die Mittlere Spanung $U_m$ ist die Spannung zwischen Microcontroller und Motortreiber. Abhänig von dieser Spannung 
+Die Mittlere Spanung $U_m$ ist die Spannung zwischen Microcontroller und Motortreiber. Abhänig von dieser Spannung steuert der Motortreiber die Spannung von dem Motor. Einfach gesagt: Je höher die Spannung $U_m$ ist desto schneller dreht sich der Motor.
+
+
 
 
