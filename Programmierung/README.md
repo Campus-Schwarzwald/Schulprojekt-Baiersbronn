@@ -200,6 +200,22 @@ Wenn die Spulen nacheinander ein- und ausgeschaltet werden, entsteht ein wechsel
 
 ![](/Bilder/Animation_einer_Gleichstrommaschine_(Variante).gif)
 
+## Technische Daten
+- Motorart: DC Motor mit Bürsten
+- Anschlussspannung: 12V
+- Drehzahl: 500rpm (Umdrehungen pro Minute)
+
+## Was ist ein Motortreiber
+Im Allgemeinen reichen die Stromstärken, die ein Mikrocontroller liefern kann, nicht aus, um einen Motor direkt anzusteuern. Deshalb gibt es unterschiedliche Arten von sogenannten Motortreibern. Diese werden eingangsseitig am Mikrocontroller und ausgangsseitig am Motor angeschlossen. Sie übersetzen die Kommandos des Mikrocontrollers in die vom Motor benötigten Stromstärken. Gleichzeitig wird der Mikrocontroller von etwaigen Kurzschlüssen oder Überspannungen, die seitens des Motors entstehen könnten, geschützt.
+
+## Technische Daten
+- Chip: L298N (ST NEU)
+- Logik Spannung: 5V
+- Treiber Spannung: 5V-35V
+- Logik Strom: 0mA-36mA
+- Treiber Strom: 2A (MAX single bridge)
+- Maximale Leistung: 25W
+- Abmessungen:43 x 43 x 26mm
 
 
 
