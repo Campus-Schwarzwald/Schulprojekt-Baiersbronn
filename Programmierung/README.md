@@ -200,7 +200,7 @@ Wenn die Spulen nacheinander ein- und ausgeschaltet werden, entsteht ein wechsel
 
 ![](/Bilder/Animation_einer_Gleichstrommaschine_(Variante).gif)
 
-## Technische Daten
+## Technische Daten DC Motor
 - Motorart: DC Motor mit Bürsten
 - Anschlussspannung: 12V
 - Drehzahl: 500rpm (Umdrehungen pro Minute)
@@ -210,7 +210,7 @@ Im Allgemeinen reichen die Stromstärken, die ein Mikrocontroller liefern kann, 
 
 ![](/Bilder/RBS10092_2.jpg)
 
-## Technische Daten
+## Technische Daten Motortreiber L298N
 - Chip: L298N (ST NEU)
 - Logik Spannung: 5V
 - Treiber Spannung: 5V-35V
