@@ -179,6 +179,26 @@ void loop() {
   delay(500);
 }
 ```
+# Antrieb
+Der Antrieb des selbstfahrenden Autos besteht aus meheren Komponeten. Dazu gehört ein DC Motor, ein Motortreiber sowie der Aufhängung für den Antriebsstrang. Wir konzentrieren uns in diesem Teil auf die elektronischen Bauteile. Sprich den DC Motor mit Bürsten und den Motortreiber. Der Motortreiber wird über den Microkontroller mithilfe von einem PWM-Signal angesteuert. Der Motortreiber regelt wiederum den DC Motor.
+
+## Was ist ein DC Motor?
+Ein Gleichstrommotor, auch DC-Motor genannt, nimmt elektrischen Strom in Form von Gleichstrom (englisch direct current) auf und wandelt diesen in eine mechanische Drehbewegung (Rotation) um. Dabei macht er sich die durch den Stromfluss entstehenden Magnetfelder zunutze, um einen auf der Motorwelle sitzenden Rotor, genannt Anker, in eine Drehbewegung zu versetzen. Das Antriebsdrehmoment und die Antriebsgeschwindigkeit hängen sowohl vom Eingangsstrom als auch der Konstruktionsweise des Motors ab.
+
+Die Bezeichnung „Gleichstrommotor“ bezieht sich auf sämtliche Rotationsmaschinen, die elektrischen Gleichstrom in mechanische Energie umsetzen. Es gibt Gleichstrommotoren in unterschiedlichen Größen und mit unterschiedlicher Leistung – von kleinen Motoren für Spielzeug und Haushaltsgeräte bis hin zu großen Konstruktionen, die Fahrzeuge, Aufzüge und Hubwerke sowie Stahlwalzwerke antreiben.
+
+## Aufbau und Funktionsweise
+Gleichstrommotoren bestehen im Wesentlichen aus zwei Komponenten: einem Feldmagneten (Stator) und einem sogenannten Anker (Rotor). Der Stator ist der unbewegliche Teil des Motors, der Anker dreht sich. Bei einem Gleichstrommotor erzeugt der Stator ein rotierendes Magnetfeld, das den Anker in eine Drehbewegung versetzt.
+
+Die Grundform besteht aus einem unbeweglichen Satz Magneten im Stator und einer Drahtspule, durch die ein Strom fließt. Dadurch wird ein elektromagnetisches Feld erzeugt, das durch den Spulenkern verläuft. Eine oder mehrere Wicklungen von isoliertem Draht sind um den Kern des Motors gewickelt, um das Magnetfeld zu konzentrieren.
+
+Die Wicklungen des isolierten Drahts sind an einen Kommutator (auch Kollektor, Stromwender oder Polwender genannt) angeschlossen, über den ein elektrischer Strom an die Wicklungen angelegt wird. Durch den Kommutator werden die Ankerspulen nacheinander erregt, wodurch eine gleichmäßige Drehkraft (Drehmoment) entsteht.
+
+Wenn die Spulen nacheinander ein- und ausgeschaltet werden, entsteht ein wechselndes Magnetfeld, das mit den Feldkräften der stationären Feldmagneten im Stator interagiert und so ein Drehmoment erzeugt, das den Stator in eine Drehbewegung versetzt. Dieses Wirkprinzip von Gleichstrommotoren sorgt dafür, dass die elektrische Energie des Gleichstroms in mechanische Energie, die Drehbewegung, umgewandelt wird, die dann für den Antrieb von Objekten genutzt werden kann.
+
+
+
+
 
 
 
