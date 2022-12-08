@@ -190,7 +190,7 @@ Die Bezeichnung „Gleichstrommotor“ bezieht sich auf sämtliche Rotationsmasc
 ## Aufbau und Funktionsweise
 Gleichstrommotoren bestehen im Wesentlichen aus zwei Komponenten: einem Feldmagneten (Stator) und einem sogenannten Anker (Rotor). Der Stator ist der unbewegliche Teil des Motors, der Anker dreht sich. Bei einem Gleichstrommotor erzeugt der Stator ein rotierendes Magnetfeld, das den Anker in eine Drehbewegung versetzt.
 
-![] (/Bilder/Bild1_neu-1024x576.jpg)
+![](/Bilder/Bild1_neu-1024x576.jpg)
 
 Die Grundform besteht aus einem unbeweglichen Satz Magneten im Stator und einer Drahtspule, durch die ein Strom fließt. Dadurch wird ein elektromagnetisches Feld erzeugt, das durch den Spulenkern verläuft. Eine oder mehrere Wicklungen von isoliertem Draht sind um den Kern des Motors gewickelt, um das Magnetfeld zu konzentrieren.
 
