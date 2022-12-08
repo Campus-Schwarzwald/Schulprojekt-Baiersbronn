@@ -226,7 +226,7 @@ Zur Steuerung des Motortreibers wird ein PWM-Signal verwendet. PWM steht für Pu
 
 ![](/Bilder/Bild_PWM.jpg)
 
-Die Einschaltzeit $t\textsubscript{ein}$
+Die Einschaltzeit $t_{ein}$
 
 
 
