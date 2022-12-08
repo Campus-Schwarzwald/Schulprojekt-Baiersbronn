@@ -198,7 +198,7 @@ Die Wicklungen des isolierten Drahts sind an einen Kommutator (auch Kollektor, S
 
 Wenn die Spulen nacheinander ein- und ausgeschaltet werden, entsteht ein wechselndes Magnetfeld, das mit den Feldkräften der stationären Feldmagneten im Stator interagiert und so ein Drehmoment erzeugt, das den Stator in eine Drehbewegung versetzt. Dieses Wirkprinzip von Gleichstrommotoren sorgt dafür, dass die elektrische Energie des Gleichstroms in mechanische Energie, die Drehbewegung, umgewandelt wird, die dann für den Antrieb von Objekten genutzt werden kann.
 
-![](/Bilder/Bild1_neu-1024x576.jpg)
+![](/Bilder/Animation_einer_Gleichstrommaschine_(Variante).gif)
 
 
 
