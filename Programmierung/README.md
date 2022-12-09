@@ -1,4 +1,4 @@
-# Arduino Programmierung
+# Programmierung
 The Goal is to build knowledge inside of the Team as well as to provide a basis on which we can rely to assist the students.
 
 ## Arduino IDE
@@ -11,7 +11,7 @@ Als Servomotor bezeichnet man alle Arten von Elektromotoren, die mit einem Posit
 ![](/Bilder/Servomotor.jpg)
 
 ### Wie funktioniert ein Servomotor?
-
+# Programmierung
 Ein Servomotor ist ein System mit geschlossenem Regelkreis, das seine Bewegung und Endposition mithilfe von Positionsrückmeldungen steuert. Es gibt viele Arten von Servomotoren, und ihr Hauptmerkmal ist die Fähigkeit, die Position ihrer Motorwelle präzise zu steuern.
 
 ![](/Bilder/Feedbackloop.png)
@@ -47,8 +47,7 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 ```C
 /*
  * Schulprojekt
- * Code für Ultraschallsensor hc-r04
- * Aktuell für einen ESP32
+ * Code für SG90 Servomotor
  * 
  * Alexander Huss, William Lopez, Christof Schillinger
  * Campus Schwarzwald
