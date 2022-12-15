@@ -1,24 +1,34 @@
 # Die Höle der Löwen Schwarzwald Edition
 
-![AKomBox-SA](Bilder/Loewe.png?raw=true)
+![](Bilder/Loewe.png?raw=true)
 
 ## Einleitung
 
-Willkommen und herzlichen Glückwunsch, dass Sie für die neue Saison von xxx am Campus Schwarzwald ausgewählt wurden.
-Ihre Aufgabe, wenn Sie sich dazu entschließen, wird es sein, im Team Ihr eigenes selbstfahrendes Auto zu entwickeln. Diese Herausforderung wird Ihre Entwicklungs- und Managementfähigkeiten sowie Ihre Fähigkeit, als Team effektiv zu kommunizieren, auf die Probe stellen.
+Willkommen und herzlichen Glückwunsch, dass Sie für die neue Saison von die Höle der Löwen am Campus Schwarzwald für diese Schwarzwald Edition ausgewählt wurden.
 
-Um Ihr Team zusammenzustellen, können Sie Folgendes tun
+Ihre Aufgabe, wird es sein, im Team Ihr eigenes selbstfahrendes Auto zu entwickeln bauen und zu pitchen . Diese Herausforderung wird Ihre Entwicklungs- und Managementfähigkeiten sowie Ihre Fähigkeit, als Team effektiv zu kommunizieren, auf die Probe stellen.
+
+Um teilzunehmen, müsst ihr Fünferteams bilden und euch wie folgt auf verschiedene Rollen verteilen:
+
 - 1 Projekt Manager
 - 2 Mechanische Entwicklung
 - 2 Elektronikentwicklung und Programmierung
 
+
 ## Campus Team
-Um Ihnen bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe mehrerer Experten zählen, die hier am Campus Schwarzwald zugegen sind:
+Um Euch bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe mehrerer Experten zählen, die hier am Campus Schwarzwald zugegen sind:
 
 - William Lopez 
 - Christof 
 - Alexander 
 - Tobias Riethmuller
+
+> **Note**
+> This is a note
+
+> **Warning**
+> This is a note
+
 
 ## Zeitplan
 
