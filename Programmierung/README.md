@@ -292,6 +292,73 @@ Davon ausgehend das $U_{aus}=0V$ lässt sich die Formel zu folgendem Ausdruck ve
 
 $$U_m=U_{ein} * \dfrac{t_{ein}}{t_{ein}+t_{aus}}=U_{ein} * p$$
 
-Die Mittlere Spanung $U_m$ ist die Spannung zwischen Microcontroller und Motortreiber. Abhänig von dieser Spannung 
+Die Mittlere Spanung $U_m$ ist die Spannung zwischen Microcontroller und Motortreiber. Abhänig von dieser Spannung steuert der Motortreiber die Spannung von dem Motor. Einfach gesagt: Je höher die Spannung $U_m$ ist desto schneller dreht sich der Motor.
+
+## Aufbau Schaltung für den Antrieb
+Das Bild zeigt die Schaltung des Antriebs
+
+![](/Bilder/Antrieb_Steckplatine.jpg)
+
+## Programmierung des Antriebs
+```C
+/*
+ * Schulprojekt
+ * Code für den Antrieb
+ * 
+ * Alexander Huss, William Lopez, Christof Schillinger
+ * Campus Schwarzwald
+ */
+
+//Defintion der Pins
+#define ENA_PIN 10 //
+#define IN1_PIN 9 //
+#define IN2_PIN 8 //
+
+//Funktion zur Berechung der Motordrehzahl 
+float velocity(float percent){
+  //Berechen der Motordrehzahl aus der Prozentangabe
+  return (percent/100)*255;
+}
+
+void setup()
+{
+  //Die Pins als Output definieren
+  pinMode(ENA_PIN, OUTPUT);    
+  pinMode(IN1_PIN, OUTPUT);
+  pinMode(IN2_PIN, OUTPUT);
+}
+void loop()
+{
+  //Motor soll sich mit 50% der Geschwindigkeit bewegen
+  analogWrite(ENA_PIN,velocity(50));
+  //Motor beginnt sich vorwärts zu drehen
+  digitalWrite(IN1_PIN, HIGH); 
+  digitalWrite(IN2_PIN, LOW);
+
+  //Pause von 2,5 Sekunden
+  delay(2500);
+
+  //Motor soll sich mit 100% der Geschwindigkeit drehen
+  analogWrite(ENA_PIN, velocity(100));
+  //Motor beginnt sich vorwärts zu drehen
+  digitalWrite(IN1_PIN, HIGH); 
+  digitalWrite(IN2_PIN, LOW);
+
+  //Pause von 2,5 Sekunden
+  delay(2500);
+
+  //Motor soll sich mit 25% der Geschwindigkeit bewegen
+  analogWrite(ENA_PIN, velocity(25));
+  //Motor beginnt sich rückwärts zu drehen
+  digitalWrite(IN1_PIN, LOW); 
+  digitalWrite(IN2_PIN, HIGH);
+
+//Pause von 2,5 Sekunden 
+  delay(2000);
+}
+```
+
+
+
 
 

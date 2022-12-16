@@ -46,4 +46,3 @@ Um Euch bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe meh
 > This is a note
 
 > **Warning**
-> This is a note
