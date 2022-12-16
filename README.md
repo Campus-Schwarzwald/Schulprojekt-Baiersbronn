@@ -7,9 +7,9 @@
 Ihre Aufgabe in dieser Saison wird es sein, Ihr eigenes Unternehmen zu gründen und im Team ein selbstfahrendes Auto zu entwickeln. 
 Um Ihre Teams zu bilden, werden Sie in ein 5-Personen-Team mit zwei Zweiergruppen aufgeteilt, die für die elektronische Entwicklung, die Programmierung und die mechanische Konstruktion zuständig sind, sowie einen Projektmanager, der den Fortschritt des Projekts in finanzieller und zeitlicher Hinsicht überwacht.
 
-- 1 Projekt Manager
-- 2 Mechanische Entwicklung
-- 2 Elektronikentwicklung und Programmierung
+- 1 :briefcase: Projekt Manager
+- 2 :nut_and_bolt: Mechanische Entwickler
+- 2 :electric_plug:  Elektronikentwicklung und Programmierung
 
 Um Ihr Unternehmen aufzubauen, erhält jede Gruppe ein Startkapital, das bei einer Finanzierungsrunde von Investoren gesammelt wurde, die von Ihrem Projekt überzeugt sind.
 Sie werden vier Termine in unserem hochmodernen Gebäude in Freudenstadt haben, um Ihr Produkt fertigzustellen, und am Ende Ihrer Entwicklung werden Sie die Chance haben, Ihr Unternehmen und Ihr selbstfahrendes Auto vor einem Expertengremium zu pitchen. 
@@ -39,14 +39,4 @@ Um Euch bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe meh
 
 - William Lopez 
 - Christof 
-<<<<<<< Updated upstream
 - Alexander 
-- Tobias Riethmuller
-
-> **Note**
-> This is a note
-
-> **Warning**
-=======
-- Alexander 
->>>>>>> Stashed changes
