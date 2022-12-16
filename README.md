@@ -17,7 +17,7 @@ Sie werden vier Termine in unserem hochmodernen Gebäude in Freudenstadt haben, 
 > **Warning**
 > Es wird eine Teststrecke aufgebaut, auf der Ihre selbstfahrenden Fahrzeuge getestet werden. 
 
-# Zeitplan
+# :date: Zeitplan
 
 Für die Fertigstellung Ihres Prototyps haben Sie vier Termine zur Verfügung. Das hört sich vielleicht viel an, aber unterschätzen Sie nicht Ihre Fähigkeit, Verzögerungen in Kauf zu nehmen. Ihr Zeitmanagement und Ihre Fähigkeit, sich effektiv im Team auszutauschen, werden entscheidend für den Erfolg Ihres Projekts sein!
 Um Ihnen bei dieser Aufgabe zu helfen werdet ihr bei jeder Termin verschiedene Aufgaben und Ziele zu erfüllen haben. Insbesondere wird von euch erwartet, dass ihr euch so gut wie möglich an dieses Programm halten.
@@ -25,13 +25,13 @@ Um Ihnen bei dieser Aufgabe zu helfen werdet ihr bei jeder Termin verschiedene A
 - **Termin 1** : 
     Mettez vous d'accord sur le type de vehicule que vous voulez construire, mettez au point votre equipe et identifier vos points forts et points faibles pour savoir ce que vous pourrez realiser par la suite et ce que vous devrez surement sourcer
 
-- **Termin2**:
+- **Termin 2**:
 Avec vos notes du Termin 1 poursuivez la finalisation de votre concepte et commencer le developpement et la fabrication de votre vehicule (CAD, Programmation...)
 
-- Termin3 :
+- **Termin 3** :
 Tester votre premier prototype et apporter des changements a votre design si necessaire, tester votre code et realiser vos premiers essais de conduite autonome. Si vous avez le temps vous pouvez egalement commencer a reflechir comment ameliorer votre design.
 
-- Termin4 : 
+- **Termin 4** : 
 Finalisation de votre prototype, changements mineurs du code pour ameliorer la conduite, ajustement du design mechanique si besoin ou developpement de fonctions speciales (LED, design,...)
 
 ## Campus Team
@@ -39,6 +39,7 @@ Um Euch bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe meh
 
 - William Lopez 
 - Christof 
+<<<<<<< Updated upstream
 - Alexander 
 - Tobias Riethmuller
 
@@ -46,3 +47,6 @@ Um Euch bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe meh
 > This is a note
 
 > **Warning**
+=======
+- Alexander 
+>>>>>>> Stashed changes

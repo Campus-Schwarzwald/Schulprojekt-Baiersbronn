@@ -1,4 +1,4 @@
-# Programmierung
+# :computer: Programmierung
 The Goal is to build knowledge inside of the Team as well as to provide a basis on which we can rely to assist the students.
 
 # Arduino IDE
