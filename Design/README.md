@@ -3,7 +3,7 @@
 Ihre Rolle als Mechanikentwickler besteht darin, die verschiedenen Teile, aus denen Ihr Fahrzeug besteht, zu entwickeln und herzustellen. 
 Sie sind also dafür verantwortlich, technische Lösungen zu finden und Ihr Team zu einer Lösung zu führen, die für das von Ihnen gewählte Design am besten geeignet ist.
 
-Um Ihnen bei der Entwicklung zu helfen, können Sie das System wie folgt in mehrere Unterabschnitte aufteilen:
+Um Ihnen bei der Entwicklung zu helfen, können Sie das System in mehrere Unterabschnitte aufteilen:
 
 - Antrieb
 - Lenkung
@@ -11,7 +11,10 @@ Um Ihnen bei der Entwicklung zu helfen, können Sie das System wie folgt in mehr
 - Rad
 - ...
 
-Um euch bei der Entwicklung zu helfen, habt ihr auch die Möglichkeit, bestimmte Teile in unserem Campus Shop zu kaufen, allerdings steht euch nur eine bestimmte Menge an Geld zur Verfügung, die ihr für das gesamte Projekt benötigt.
+> **Note**
+> Um euch bei der Entwicklung zu helfen, habt ihr auch die Möglichkeit, bestimmte Teile in unserem [Campus Shop](/Campus%20Shop/README.md) zu kaufen, allerdings steht euch nur eine bestimmte Menge an Geld zur Verfügung, die ihr für das gesamte Projekt benötigt.
+
+# :date: Zeitplan
 
 ## Termin 1:
 **Globales Ziel:** Das Konzept des Fahrzeugs definieren

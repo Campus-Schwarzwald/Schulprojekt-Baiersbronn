@@ -5,7 +5,7 @@ Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Doll
 
 ## Starter Pack
 
-Um Ihr Projekt zu starten, bieten wir diese kostenlose Starterpaket an. 
+Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten kostenlos.
 
 | Teil | Menge | 
 | ------------- | ------------- |
