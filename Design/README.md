@@ -1,4 +1,4 @@
-# Mechanische Konstruktion
+# :nut_and_bolt: Mechanische Konstruktion
 
 Ihre Rolle als Mechanikentwickler besteht darin, die verschiedenen Teile, aus denen Ihr Fahrzeug besteht, zu entwickeln und herzustellen. 
 Sie sind also dafür verantwortlich, technische Lösungen zu finden und Ihr Team zu einer Lösung zu führen, die für das von Ihnen gewählte Design am besten geeignet ist.
