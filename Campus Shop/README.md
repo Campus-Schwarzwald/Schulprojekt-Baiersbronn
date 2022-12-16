@@ -1,9 +1,9 @@
-# Campus Shop
+# :department_store: Campus Shop
 
 Willkommen in unserem Shop. Hier finden Sie alle Produkte, die wir zum Verkauf anbieten, um selbstfahrende Fahrzeuge zu bauen.
-Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Dollar oder CD.
+Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Dollar oder *CD$* :dollar:.
 
-## Starter Pack
+## :rocket: Starter Pack
 
 Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten kostenlos.
 
@@ -15,7 +15,7 @@ Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten kostenlos.
 | Akku  | 1 | 
 | Ultraschallsensor | 1 |
 
-# Mechanische Bauteile
+# :wrench: Mechanische Bauteile
 ### Pack:
 
 | Teil | Preis |
@@ -40,7 +40,7 @@ Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten kostenlos.
 | Holz Rad 90mm | 1 | - |
 
 
-## Elektronik
+# :electric_plug: Elektronik Bauteile
 | Teil | Menge | Preis |
 | ------------- | ------------- | ------------- |
 | DC Motor  | 1 | -  |
@@ -49,7 +49,7 @@ Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten kostenlos.
 | LED  | 1 | -  |
 | Zubehör  | 1 | -  |
 
-# Software  
+# :computer: Software  
 | Teil | Menge | Preis |
 | ------------- | ------------- | ------------- |
-| DC Motor  | 1 | -  |
+| DC Motor Funktion | 1 | -  |
