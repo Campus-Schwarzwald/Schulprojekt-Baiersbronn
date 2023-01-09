@@ -1,5 +1,4 @@
 # :computer: Programmierung
-The Goal is to build knowledge inside of the Team as well as to provide a basis on which we can rely to assist the students.
 
 # Arduino IDE
 - Intro to how to upload a sketch and the buttons
