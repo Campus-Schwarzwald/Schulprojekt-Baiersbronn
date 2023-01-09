@@ -15,28 +15,22 @@ Um Ihr Unternehmen aufzubauen, erhält jede Gruppe ein Startkapital, das bei ein
 Sie werden vier Termine in unserem hochmodernen Gebäude in Freudenstadt haben, um Ihr Produkt fertigzustellen, und am Ende Ihrer Entwicklung werden Sie die Chance haben, Ihr Unternehmen und Ihr selbstfahrendes Auto vor einem Expertengremium zu pitchen. 
 
 > **Warning**
-> Es wird eine Teststrecke aufgebaut, auf der Ihre selbstfahrenden Fahrzeuge getestet werden. 
+> Es wird eine Teststrecke aufgebaut :construction:, auf der Ihre selbstfahrenden Fahrzeuge getestet werden. 
 
 # :date: Zeitplan
 
 Für die Fertigstellung Ihres Prototyps haben Sie vier Termine zur Verfügung. Das hört sich vielleicht viel an, aber unterschätzen Sie nicht Ihre Fähigkeit, Verzögerungen in Kauf zu nehmen. Ihr Zeitmanagement und Ihre Fähigkeit, sich effektiv im Team auszutauschen, werden entscheidend für den Erfolg Ihres Projekts sein!
+
 Um Ihnen bei dieser Aufgabe zu helfen werdet ihr bei jeder Termin verschiedene Aufgaben und Ziele zu erfüllen haben. Insbesondere wird von euch erwartet, dass ihr euch so gut wie möglich an dieses Programm halten.
 
 - **Termin 1** : 
-    Mettez vous d'accord sur le type de vehicule que vous voulez construire, mettez au point votre equipe et identifier vos points forts et points faibles pour savoir ce que vous pourrez realiser par la suite et ce que vous devrez surement sourcer
+    Einigen Sie sich auf den Fahrzeugtyp, den Sie bauen wollen, stellen Sie Ihr Team zusammen und identifizieren Sie Ihre Stärken und Schwächen, damit Sie wissen, was Sie später realisieren können und was Sie kaufen müssen.
 
 - **Termin 2**:
-Avec vos notes du Termin 1 poursuivez la finalisation de votre concepte et commencer le developpement et la fabrication de votre vehicule (CAD, Programmation...)
+    Ihren Entwurf fertigstellen und mit der Entwicklung und Herstellung Ihres Fahrzeugs beginnen (CAD, Programmierung...)
 
 - **Termin 3** :
-Tester votre premier prototype et apporter des changements a votre design si necessaire, tester votre code et realiser vos premiers essais de conduite autonome. Si vous avez le temps vous pouvez egalement commencer a reflechir comment ameliorer votre design.
+    Testen Sie Ihren ersten Prototypen und nehmen Sie ggf. Änderungen an Ihrem Design vor, testen Sie Ihren Code und führen Sie Ihre ersten Versuche mit autonomem Fahren durch. Wenn Sie Zeit haben, können Sie auch damit beginnen, Ihr Design zu verbessern.
 
 - **Termin 4** : 
-Finalisation de votre prototype, changements mineurs du code pour ameliorer la conduite, ajustement du design mechanique si besoin ou developpement de fonctions speciales (LED, design,...)
-
-## Campus Team
-Um Euch bei dieser Aufgabe zu helfen, können Sie auf die Beratung und Hilfe mehrerer Experten zählen, die hier am Campus Schwarzwald zugegen sind:
-
-- William Lopez 
-- Christof 
-- Alexander 
+    Stellen Sie Ihren Prototypen fertig und testen Sie ihn auf der Teststrecke.

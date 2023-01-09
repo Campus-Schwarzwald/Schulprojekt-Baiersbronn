@@ -1,55 +1,99 @@
 # :department_store: Campus Shop
 
 Willkommen in unserem Shop. Hier finden Sie alle Produkte, die wir zum Verkauf anbieten, um selbstfahrende Fahrzeuge zu bauen.
-Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Dollar oder *CD$* :dollar:.
+Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Dollar oder *CD* :dollar:.
 
-## :rocket: Starter Pack
+# :rocket: Starter Pack 
 
-Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten kostenlos.
+Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:heavy_dollar_sign:.
 
-| Teil | Menge | 
-| ------------- | ------------- |
-| Servomotor   | 1 | 
-| Gleichstrommotor   | 1 | 
-| Motortreiber  | 1 | 
-| Akku  | 1 | 
-| Ultraschallsensor | 1 |
+| Menge | Teil | 
+| :------------- | :------------- |
+| 1 | Servomotor | 
+| 1 |Gleichstrommotor | 
+| 1 | Motortreiber | 
+| 1 | Akku | 
+| 1 | Ultraschallsensor |
+
+Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die Sie in unseren verschiedenen Shops ausgeben können.
+> **Note**
+>Achten Sie auf die Einkaufsregeln für die einzelnen Shops.
 
 # :wrench: Mechanische Bauteile
-### Pack:
 
-| Teil | Preis |
-| ------------- | ------------- |
-| 1WD | - |
-| 2WD (2 Motorhälter + 1 DC Motor) | - |
+> **Warning**
+> Sie können in diesem Shop maximal 2 Produkte kaufen
 
-### Basiskomponente
+### :gear: Antrieb Pack:
+
+#### Antrieb 1:
+| Menge | Teil | Preis |
+| ------------- | ------------- | :-------------: | 
+| 2 | Zahnrader  | 1 |
+| 1 | Aufhängung Hinterrad | 1 |
+| 2 | Kugellager | 2 |
+| 1 | Hinterachse | 0,5 |
+| -| **TOTAL** | **4,5** |
+
+#### Antrieb 2:
+| Menge| Teil| Preis |
+| ------------- | ------------- | :-------------: | 
+| 2 | Kugellager | 2 |
+| 2 | Motorhalterung | 1 |
+| -| **TOTAL** | **3** |
+
+### :leftwards_arrow_with_hook: Lenkungs Pack:
+#### Lenkung 1:
+| Menge | Teil | Preis |
+| ------------- | ------------- | :-------------: | 
+| 1 | Kugelrad | 1,5 |
+| -| **TOTAL** | **1,5** |
+
+#### Lenkung 2:
+| Menge | Teil | Preis |
+| ------------- | ------------- | :-------------: | 
+| 1 | Kugellager | 2 |
+| 2 | Achsaufhängung | 1 |
+| 2 | Achse | 1 |
+| 2 | Achshalter | 0,5 |
+| 2 | Lenkstange | 0,5 |
+| -| **TOTAL** | **5** |
+
+### :round_pushpin: Chassis 
+| Menge | Teil | Preis |
+| ------------- | ------------- | :-------------: |
+| 1 |  Chassis 1 | 3 |
+| 1 | Chassis 2 | 3 |
+
+### :memo: Basiskomponente
 
 | Teil | Menge | Preis |
-| ------------- | ------------- | ------------- |
-| Motorhälter  | 1 | -  |
-| Chassis 1WD  | 1 | - |
-| Chassis 2WD | 1 | - |
-
-### Lenkung
-
-| Teil | Menge | Preis |
-| ------------- | ------------- | ------------- |
-| Zweiradlenkung | 1 | - |
-| Lockeres Rad  | 1 | -|
-| Holz Rad 90mm | 1 | - |
-
+| ------------- | ------------- | :-------------: |
+| 4 | Holzrad | 2  |
+| 1 | DC-Motorhalterung | 0,5  |
 
 # :electric_plug: Elektronik Bauteile
-| Teil | Menge | Preis |
-| ------------- | ------------- | ------------- |
-| DC Motor  | 1 | -  |
-| Servomotor   | 1 | -  |
-| Ultraschallsensor   | 1 | -  |
-| LED  | 1 | -  |
-| Zubehör  | 1 | -  |
+
+> **Warning**
+> Sie können in diesem Shop maximal 2 Produkte kaufen
+
+| Menge| Teil | Preis |
+| ------------- | ------------- | :-------------: |
+| 1 | DC-Motor | 5  |
+| 1   | Servomotor | 4  |
+| 1 | Ultraschallsensor   | 2  |
+| 1  | LED | 0,2  |
+
 
 # :computer: Software  
-| Teil | Menge | Preis |
-| ------------- | ------------- | ------------- |
-| DC Motor Funktion | 1 | -  |
+| Code  | Preis |
+| ------------- | :-------------: |
+| DC Motorsteuerung 1 Motor | 2 |
+| DC Motorsteuerung 2 Motoren | 3 |
+| Ultraschallsensor 1  | 2 |
+| Ultraschallsensor 2  | 3 |
+| Servomotor Steuerung | 2 |
+| Ultraschallsensor 1  | 2 |
+| Lenkung 2 Motoren  | 3 |
+
+# :pen: Dienstleistung
