@@ -37,6 +37,8 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 ### Verwendung mit einem Arduino
 ![](/Bilder/ArduinoServo.jpg)
 
+## Programmierung
+
 ```C
 /*
  * Schulprojekt
