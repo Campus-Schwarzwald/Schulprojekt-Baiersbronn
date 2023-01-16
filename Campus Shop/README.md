@@ -7,8 +7,11 @@ Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Doll
 
 Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:heavy_dollar_sign:.
 
+![](/Bilder/starterPack.jpg?raw=true)
+
 | Menge | Teil | 
 | :------------- | :------------- |
+| 1 | Arduino Uno | 
 | 1 | Servomotor | 
 | 1 |Gleichstrommotor | 
 | 1 | Motortreiber | 
@@ -26,7 +29,10 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 
 ### :gear: Antrieb Pack:
 
-#### Antrieb 1:
+#### Antrieb Pack 1:
+
+![](/Bilder/antrieb1.jpg?raw=true)
+
 | Menge | Teil | Preis |
 | ------------- | ------------- | :-------------: | 
 | 2 | Zahnrader  | 1 |
@@ -35,7 +41,7 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 | 1 | Hinterachse | 0,5 |
 | -| **TOTAL** | **4,5** |
 
-#### Antrieb 2:
+#### Antrieb Pack 2:
 | Menge| Teil| Preis |
 | ------------- | ------------- | :-------------: | 
 | 2 | Kugellager | 2 |
@@ -43,13 +49,19 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 | -| **TOTAL** | **3** |
 
 ### :leftwards_arrow_with_hook: Lenkungs Pack:
-#### Lenkung 1:
+#### Lenkung Pack 1:
+
+![](/Bilder/lenkung1.jpg?raw=true)
+
 | Menge | Teil | Preis |
 | ------------- | ------------- | :-------------: | 
 | 1 | Kugelrad | 1,5 |
 | -| **TOTAL** | **1,5** |
 
-#### Lenkung 2:
+#### Lenkung Pack 2:
+
+![](/Bilder/lenkung2.jpg?raw=true)
+
 | Menge | Teil | Preis |
 | ------------- | ------------- | :-------------: | 
 | 1 | Kugellager | 2 |
