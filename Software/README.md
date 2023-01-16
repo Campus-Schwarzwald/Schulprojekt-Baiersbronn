@@ -18,9 +18,9 @@ Dies wird Ihnen helfen, die Beziehungen zwischen den einzelnen Komponenten sowoh
 # :date: Zeitplan
 
 ## Termin 1:
-**Globales Ziel:** Das Konzept des Fahrzeugs definieren
+**:dart: Ziel:** Das Konzept des Fahrzeugs definieren
 
-**Aufgaben:**
+**:computer: Aufgaben:**
 - Sich im Team über Ihre Vision :telescope: des Fahrzeugs austauschen
 - Einschätzung Ihrer Entwicklungskapazitäten
 - Definieren Sie, welche elektronischen Komponenten Sie benötigen.
@@ -30,9 +30,9 @@ Dies wird Ihnen helfen, die Beziehungen zwischen den einzelnen Komponenten sowoh
 - ...
 
 ## Termin 2:
-**Globales Ziel:** Entwurf und Bau Ihres Fahrzeugs
+**:dart: Ziel:** Entwurf und Bau Ihres Fahrzeugs
 
-**Aufgaben:**
+**:computer: Aufgaben:**
 - Fertigstellung des elektronischen Designs
 - Zusammenbau der Elektronischen Komponenten
 - Programmierung und Test der elektronischen Schaltungen
@@ -40,19 +40,18 @@ Dies wird Ihnen helfen, die Beziehungen zwischen den einzelnen Komponenten sowoh
 - ...
 
 ## Termin 3:
-**Globales Ziel:** Testen Ihres Prototyps
+**:dart: Ziel:** Testen Ihres Prototyps
 
-**Aufgaben:**
+**:computer: Aufgaben:**
 - Integration der Komponenten in das Fahrzeug mit dem mechanischen Team
 - Programmierung des Kontrole-Programms
 - Test
 
 ## Termin 4:
-**Globales Ziel:** Test Ihres Prototyps und Vorbereitung auf den Pitch.
+**:dart: Ziel:** Test Ihres Prototyps und Vorbereitung auf den Pitch.
 
-**Aufgaben:**
+**:computer: Aufgaben:**
 - Finaliesierung des Codes 
 - Test
 
-# Benötigte Software
-- Arduino IDE
+

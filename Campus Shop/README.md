@@ -1,11 +1,14 @@
-# :department_store: Campus Shop
+# :shopping_cart: Campus Shop
 
 Willkommen in unserem Shop. Hier finden Sie alle Produkte, die wir zum Verkauf anbieten, um selbstfahrende Fahrzeuge zu bauen.
 Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Dollar oder *CD* :dollar:.
 
+> **Note**
+>Achten Sie auf die Einkaufsregeln für die einzelnen Shops.
+
 # :rocket: Starter Pack 
 
-Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:heavy_dollar_sign:.
+Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:money_with_wings:.
 
 ![](/Bilder/starterPack.jpg?raw=true)
 
@@ -19,8 +22,6 @@ Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:heavy_d
 | 1 | Ultraschallsensor |
 
 Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die Sie in unseren verschiedenen Shops ausgeben können.
-> **Note**
->Achten Sie auf die Einkaufsregeln für die einzelnen Shops.
 
 # :wrench: Mechanische Bauteile
 
