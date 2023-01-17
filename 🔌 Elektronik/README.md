@@ -25,8 +25,8 @@ Dies wird Ihnen helfen, die Beziehungen zwischen den einzelnen Komponenten sowoh
 - Einschätzung Ihrer Entwicklungskapazitäten
 - Definieren Sie, welche elektronischen Komponenten Sie benötigen.
 - Definieren was ihr kaufen wollt 
-- Beginnen Sie mit der Herstellung der elektronischen Schaltung.
-- Beginnen Sie mit der Codierung und dem Testen bestimmter Komponenten.  
+- Beginnen mit der Herstellung der elektronischen Schaltung.
+- Beginnen mit der Codierung und dem Testen bestimmter Komponenten.  
 - ...
 
 ## Termin 2:

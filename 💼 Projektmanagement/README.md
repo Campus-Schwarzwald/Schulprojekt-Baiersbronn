@@ -28,6 +28,8 @@ Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abl
 
 **:pencil2: Aufgaben:**
 - Präsentation des Projektfortschritts 
+- Vorbereitung eines Meetings in der Mitte der Sitzung, um sich im Team über den Projektfortschritt auszutauschen.
+- Vorbereitung der Abschlusspräsentation
 - Überwachung der Produktentwicklung in den verschiedenen Teams
 
 
@@ -35,3 +37,8 @@ Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abl
 **:dart: Ziel:** Test Ihres Prototyps und Vorbereitung auf den Pitch.
 
 **:pencil2: Aufgaben:**
+- Präsentation des Projektfortschritts
+- Überwachung der Produktentwicklung in den verschiedenen Teams
+- Vorbereitung eines Meetings in der Mitte der Sitzung, um sich im Team über den Projektfortschritt auszutauschen.
+- Vorbereitung der Abschlusspräsentation
+- Test
