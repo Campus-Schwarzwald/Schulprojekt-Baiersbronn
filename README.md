@@ -23,14 +23,14 @@ Für die Fertigstellung Ihres Prototyps haben Sie vier Termine zur Verfügung. D
 
 Um Ihnen bei dieser Aufgabe zu helfen werdet ihr bei jeder Termin verschiedene Aufgaben und Ziele zu erfüllen haben. Insbesondere wird von euch erwartet, dass ihr euch so gut wie möglich an dieses Programm halten.
 
-- **Termin 1** : 
+- **:date: Termin 1** : 
     Einigen Sie sich auf den Fahrzeugtyp, den Sie bauen wollen, stellen Sie Ihr Team zusammen und identifizieren Sie Ihre Stärken und Schwächen, damit Sie wissen, was Sie später realisieren können und was Sie kaufen müssen.
 
-- **Termin 2**:
+- **:date: Termin 2**:
     Ihren Entwurf fertigstellen und mit der Entwicklung und Herstellung Ihres Fahrzeugs beginnen (CAD, Programmierung...)
 
-- **Termin 3** :
+- **:date: Termin 3** :
     Testen Sie Ihren ersten Prototypen und nehmen Sie ggf. Änderungen an Ihrem Design vor, testen Sie Ihren Code und führen Sie Ihre ersten Versuche mit autonomem Fahren durch. Wenn Sie Zeit haben, können Sie auch damit beginnen, Ihr Design zu verbessern.
 
-- **Termin 4** : 
+- **:date: Termin 4** : 
     Stellen Sie Ihren Prototypen fertig und testen Sie ihn auf der Teststrecke.
