@@ -1,7 +1,7 @@
 # :briefcase: Projektmanagement
 
 Als Projektmanager sind Sie dafür verantwortlich, Ihr Team während des gesamten Projekts anzuleiten, zu begleiten und zu beraten.
-Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abläuft, und Sie sind auch dafür verantwortlich, in jeder Sitzung Ihre Fortschritte und Fortschritte zu präsentieren und eine Teambesprechung durchzuführen.
+Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abläuft, und Sie sind auch dafür verantwortlich, in jeder Sitzung Ihre Fortschritte zu präsentieren und eine Teambesprechung durchzuführen.
 
 # :date: Zeitplan
 
