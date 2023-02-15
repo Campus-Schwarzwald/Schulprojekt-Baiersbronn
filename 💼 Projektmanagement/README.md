@@ -11,7 +11,7 @@ Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abl
 
 **:pencil2: Aufgaben:**
 - Einen Workshop mit dem Team leiten, um ein Fahrzeugdesign festzulegen.
-- Die Fähigkeiten des Teams zu bestimmen und festzulegen, wie das verfügbare Geld investiert werden soll.
+- Die Position der einzlenen Teammitgleider bestimmen und festzulegen, wie das verfügbare Geld investiert werden soll.
 - Die Kommunikation innerhalb des Teams erleichtern
 
 ## Termin 2:
