@@ -20,11 +20,11 @@ Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abl
 **:pencil2: Aufgaben:**
 - Präsentation des Projektfortschritts 
 - Überwachung der Produktentwicklung in den verschiedenen Teams
-- Vorbereitung eines Meetings in der Mitte der Sitzung, um sich im Team über den Projektfortschritt auszutauschen.
+- Vorbereitung eines Meetings um sich im Team über den Projektfortschritt auszutauschen.
 - Sicherstellen, dass die Fristen eingehalten werden, und das Team unterstützen die Kosten für die Herstellung zu überwachen
 
 ## Termin 3:
-**:dart: Ziel:** Testen Ihres Prototyps
+**:dart: Ziel:** Testen des Prototyps
 
 **:pencil2: Aufgaben:**
 - Präsentation des Projektfortschritts 

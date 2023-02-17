@@ -92,11 +92,11 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 
 | Menge| Teil | Preis |
 | ------------- | ------------- | :-------------: |
-| 1 | DC-Motor | 5  |
-| 1   | Servomotor | 4  |
-| 1 | Ultraschallsensor   | 2  |
-| 1  | LED | 0,2  |
-
+| 1 | DC-Motor | 5 |
+| 1   | Servomotor | 4 |
+| 1 | Ultraschallsensor   | 2 |
+| 1  | Standard LED | 0,2 |
+| 1  | Premium LED | 1 |
 
 # :computer: Software  
 | Code  | Preis |
@@ -108,5 +108,3 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 | Servomotor Steuerung | 2 |
 | Ultraschallsensor 1  | 2 |
 | Lenkung 2 Motoren  | 3 |
-
-# :pen: Dienstleistung
