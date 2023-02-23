@@ -1,7 +1,7 @@
 # :shopping_cart: Campus Shop
 
 Willkommen in unserem Shop. Hier finden Sie alle Produkte, die wir zum Verkauf anbieten, um selbstfahrende Fahrzeuge zu bauen.
-Alle Preise, die Sie hier finden, sind in unserer einzigen Währung: Campus Dollar oder *CD* :dollar:.
+Alle Preise, die Sie hier finden, sind in unserer einzigen Währung Campus Coins (CC) :dollar:.
 
 > **Note**
 >Achten Sie auf die Einkaufsregeln für die einzelnen Shops.
@@ -21,7 +21,7 @@ Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:money_w
 | 1 | Akku | 
 | 1 | Ultraschallsensor |
 
-Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die Sie in unseren verschiedenen Shops ausgeben können.
+Wir bieten Ihnen außerdem **20 CC** :dollar: Startguthaben für Ihr Projekt, die Sie in unseren verschiedenen Shops ausgeben können.
 
 # :wrench: Mechanische Bauteile
 
@@ -52,7 +52,7 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 ### :leftwards_arrow_with_hook: Lenkungs Pack:
 #### Lenkung Pack 1:
 
-![](/Bilder/lenkung1.jpg?raw=true)
+![](/Bilder/lenkung2.jpg?raw=true)
 
 | Menge | Teil | Preis |
 | ------------- | ------------- | :-------------: | 
@@ -61,7 +61,7 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 
 #### Lenkung Pack 2:
 
-![](/Bilder/lenkung2.jpg?raw=true)
+![](/Bilder/lenkung1.jpg?raw=true)
 
 | Menge | Teil | Preis |
 | ------------- | ------------- | :-------------: | 
@@ -95,16 +95,5 @@ Wir bieten Ihnen außerdem **20** :dollar: Startguthaben für Ihr Projekt, die S
 | 1 | DC-Motor | 5 |
 | 1   | Servomotor | 4 |
 | 1 | Ultraschallsensor   | 2 |
-| 1  | Standard LED | 0,2 |
+| 2  | Standard LED | 0,5 |
 | 1  | Premium LED | 1 |
-
-# :computer: Software  
-| Code  | Preis |
-| ------------- | :-------------: |
-| DC Motorsteuerung 1 Motor | 2 |
-| DC Motorsteuerung 2 Motoren | 3 |
-| Ultraschallsensor 1  | 2 |
-| Ultraschallsensor 2  | 3 |
-| Servomotor Steuerung | 2 |
-| Ultraschallsensor 1  | 2 |
-| Lenkung 2 Motoren  | 3 |
