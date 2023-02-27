@@ -43,9 +43,12 @@ Wir bieten Ihnen außerdem **20 CC** :dollar: Startguthaben für Ihr Projekt, di
 | -| **TOTAL** | **4,5** |
 
 #### Antrieb Pack 2:
+
+![](/Bilder/antrieb2.jpg?raw=true)
+
 | Menge| Teil| Preis |
 | ------------- | ------------- | :-------------: | 
-| 2 | Kugellager | 2 |
+| 2 | Motor Kupplung | 2 |
 | 2 | Motorhalterung | 1 |
 | -| **TOTAL** | **3** |
 
