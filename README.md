@@ -22,13 +22,21 @@ Sie werden vier Termine in unserem hochmodernen Gebäude in Freudenstadt haben, 
 Für die Fertigstellung Ihres Prototyps haben Sie vier Termine zur Verfügung. Das hört sich vielleicht viel an, aber unterschätzen Sie nicht Ihre Fähigkeit, Verzögerungen in Kauf zu nehmen. Ihr Zeitmanagement und Ihre Fähigkeit, sich effektiv im Team auszutauschen, werden entscheidend für den Erfolg Ihres Projekts sein ! Um euch bei dieser Aufgabe zu helfen werdet ihr bei jeder Termin verschiedene Aufgaben und Ziele zu erfüllen haben. Insbesondere wird von euch erwartet, dass ihr euch so gut wie möglich an dieses Programm halten.
 
 - **:date: Termin 1** : 
+
     Einigen Sie sich auf den Fahrzeugtyp, den Sie bauen wollen, stellen Sie Ihr Team zusammen und identifizieren Sie Ihre Stärken und Schwächen, damit Sie wissen, was Sie später realisieren können und was Sie kaufen müssen.
 
 - **:date: Termin 2**:
+
     Ihren Entwurf fertigstellen und mit der Entwicklung und Herstellung Ihres Fahrzeugs beginnen (CAD, Programmierung...)
 
 - **:date: Termin 3** :
+
     Testen Sie Ihren ersten Prototypen und nehmen Sie ggf. Änderungen an Ihrem Design vor, testen Sie Ihren Code und führen Sie Ihre ersten Versuche mit autonomem Fahren durch. Wenn Sie Zeit haben, können Sie auch damit beginnen, Ihr Design zu verbessern.
 
 - **:date: Termin 4** : 
+
     Stellen Sie Ihren Prototypen fertig und testen Sie ihn auf der Teststrecke :construction:.
+
+- **::microphone: Pitch**
+
+    Vorstellung Ihres Teams und Ihres Projekts sowie Test Ihres Prototyps auf unserer Teststrecke :construction:

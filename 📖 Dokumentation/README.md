@@ -1,9 +1,5 @@
 # :computer: Programmierung
 
-# Arduino IDE
-- Intro to how to upload a sketch and the buttons
-- Intro to the Serial Monitor and how to setup a serial communication 
-
 # Servomotor
 Als Servomotor bezeichnet man alle Arten von Elektromotoren, die mit einem Positionssensor für den Rotor ausgestattet sind. Diese Art von Motor ermöglicht eine sehr gute Positionskontrolle und wird sowohl in der Industrie als auch in vielen Arduino-Projekten eingesetzt.
 
@@ -75,15 +71,6 @@ void loop() {
   }
 }
 ```
-
-## How to use functions (optional)
-- How to define them 
-- How it helps make your code more readable and lighter
-
-## How to avoid obstacles
-- ratio distance speed of the car 
-- Reaction Time 
-
 
 # Ultraschall Sensor HC-SR04
 Ultraschallsensoren eignen sich bestens dafür, Abstände zu messen und Objekte berührungslos zu erkennen.Wichtig ist, dass der Gegenstand aus einem Material besteht, das den Schall reflektieren kann. Objekte aus Metall, Holz oder Kunststoff eignen sich für die Messung folglich sehr gut. Transparente Flüssigkeiten oder Gegenstände sind kein Hindernis für den Sensor, dasselbe gilt für Schmutz, Staubwolken oder Nebel.
