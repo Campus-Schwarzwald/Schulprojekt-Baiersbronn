@@ -36,6 +36,7 @@ Sie sind also dafür verantwortlich, technische Lösungen zu finden und Ihr Team
 - Ihre Konstruktion testen
 - Aktualisieren Sie Ihr Konzept und konstruieren bei Bedarf neue Teile.
 - Entwickeln Sie das Produktdesign
+- ...
 
 ## Termin 4:
 **:dart: Ziel:** Test Ihres Prototyps und Vorbereitung auf den Pitch.
@@ -44,3 +45,4 @@ Sie sind also dafür verantwortlich, technische Lösungen zu finden und Ihr Team
 - Ihre Konstruktion testen
 - Nehmen Sie Anpassungen am Prototypen vor.
 - das Produktdesign entwickeln
+- ...
