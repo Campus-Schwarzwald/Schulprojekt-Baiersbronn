@@ -90,6 +90,8 @@ Wir bieten Ihnen außerdem **20 CC** :dollar: Startguthaben für Ihr Projekt, di
 
 # :electric_plug: Elektronik Bauteile
 
+![](/Bilder/elektroshop.jpg?raw=true)
+
 > **Warning**
 > Sie können in diesem Shop maximal 2 Produkte kaufen
 
