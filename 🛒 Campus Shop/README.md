@@ -49,7 +49,7 @@ Wir bieten Ihnen außerdem **20 CC** :dollar: Startguthaben für Ihr Projekt, di
 | Menge| Teil| Preis |
 | ------------- | ------------- | :-------------: | 
 | 2 | Motor Kupplung | 2 |
-| 2 | Motorhalterung | 1 |
+| 2 | DC-Motorhalterung | 1 |
 | -| **TOTAL** | **3** |
 
 ### :leftwards_arrow_with_hook: Lenkungs Pack:
@@ -76,6 +76,9 @@ Wir bieten Ihnen außerdem **20 CC** :dollar: Startguthaben für Ihr Projekt, di
 | -| **TOTAL** | **5** |
 
 ### :round_pushpin: Chassis 
+
+![](/Bilder/chassis.jpg?raw=true)
+
 | Menge | Teil | Preis |
 | ------------- | ------------- | :-------------: |
 | 1 |  Chassis 1 | 3 |
