@@ -38,39 +38,77 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 
 ### Verwendung mit einem Arduino
 ![](/Bilder/ArduinoServo.jpg)
+::: {.row}
+  :::{.col-md-6}
+    ```C
+    /*
+    * Schulprojekt
+    * Code für SG90 Servomotor
+    * 
+    * Alexander Huss, William Lopez, Christof Schillinger
+    * Campus Schwarzwald
+    */
 
-```C
-/*
- * Schulprojekt
- * Code für SG90 Servomotor
- * 
- * Alexander Huss, William Lopez, Christof Schillinger
- * Campus Schwarzwald
- */
+    #include <Servo.h>
 
-#include <Servo.h>
+    Servo myservo;  // Erstellen eines Servo-Objekts zur Steuerung eines Servomotors
 
-Servo myservo;  // Erstellen eines Servo-Objekts zur Steuerung eines Servomotors
+    int pos = 0;    // Variable zur Speicherung der Servoposition
 
-int pos = 0;    // Variable zur Speicherung der Servoposition
+    void setup() {
+      myservo.attach(6);  // verbindet das Servomotor an Pin 6 
+    }
 
-void setup() {
-  myservo.attach(6);  // verbindet das Servomotor an Pin 6 
-}
+    - Code snipets to test the motors
+    void loop() {
+      for (pos = 0; pos <= 180; pos += 1) { // geht von 0 Grad bis 180 Grad in Schritten von 1 Grad
+      
+        myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+        delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+      }
+      for (pos = 180; pos >= 0; pos -= 1) { // geht von 180 Grad bis 0 Grad in Schritten von 1 Grad
+        myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+        delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+      }
+    }
+    ```
+  :::
+  :::{.col-md-6}
+    ```C
+    /*
+    * Schulprojekt
+    * Code für SG90 Servomotor
+    * 
+    * Alexander Huss, William Lopez, Christof Schillinger
+    * Campus Schwarzwald
+    */
 
-- Code snipets to test the motors
-void loop() {
-  for (pos = 0; pos <= 180; pos += 1) { // geht von 0 Grad bis 180 Grad in Schritten von 1 Grad
-  
-    myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
-    delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
-  }
-  for (pos = 180; pos >= 0; pos -= 1) { // geht von 180 Grad bis 0 Grad in Schritten von 1 Grad
-    myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
-    delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
-  }
-}
-```
+    #include <Servo.h>
+
+    Servo myservo;  // Erstellen eines Servo-Objekts zur Steuerung eines Servomotors
+
+    int pos = 0;    // Variable zur Speicherung der Servoposition
+
+    void setup() {
+      myservo.attach(6);  // verbindet das Servomotor an Pin 6 
+    }
+
+    - Code snipets to test the motors
+    void loop() {
+      for (pos = 0; pos <= 180; pos += 1) { // geht von 0 Grad bis 180 Grad in Schritten von 1 Grad
+      
+        myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+        delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+      }
+      for (pos = 180; pos >= 0; pos -= 1) { // geht von 180 Grad bis 0 Grad in Schritten von 1 Grad
+        myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+        delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+      }
+    }
+    ```
+  :::
+:::
+
 
 # Ultraschall Sensor HC-SR04
 Ultraschallsensoren eignen sich bestens dafür, Abstände zu messen und Objekte berührungslos zu erkennen.Wichtig ist, dass der Gegenstand aus einem Material besteht, das den Schall reflektieren kann. Objekte aus Metall, Holz oder Kunststoff eignen sich für die Messung folglich sehr gut. Transparente Flüssigkeiten oder Gegenstände sind kein Hindernis für den Sensor, dasselbe gilt für Schmutz, Staubwolken oder Nebel.

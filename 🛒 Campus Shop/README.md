@@ -14,7 +14,7 @@ Um Ihr Projekt zu starten, erhalten Sie folgende Komponenten `KOSTENLOS`:money_w
 
 | Menge | Teil | 
 | :------------- | :------------- |
-| 1 | Arduino Uno | 
+| 1 | Arduino Uno / Raspberry pi zero W | 
 | 1 | Servomotor | 
 | 1 |Gleichstrommotor | 
 | 1 | Motortreiber | 
@@ -96,7 +96,7 @@ Wir bieten Ihnen außerdem **20 CC** :dollar: Startguthaben für Ihr Projekt, di
 ![](/Bilder/elektroshop.jpg?raw=true)
 
 > **Warning**
-> Sie können in diesem Shop maximal 2 Produkte kaufen
+> Sie können in diesem Shop maximal 3 Produkte kaufen
 
 | Menge| Teil | Preis |
 | ------------- | ------------- | :-------------: |
