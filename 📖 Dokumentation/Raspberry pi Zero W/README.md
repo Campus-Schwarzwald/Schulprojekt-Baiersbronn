@@ -188,7 +188,8 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 ## Aufbau der Schaltung für den Ultraschallsensor
 Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannungsquelle. Wie man die einzelnen Kontakte miteinander verbindet findet ihr in dem Schaltplan.
 
-![](/Bilder/Ultraschallsensor_Steckplatine.jpg)
+## Raspberry Pi
+![](/Bilder/Raspberry_Pi_Ultraschallsensor_Steckplatine.png)
 
 ## Programmierung des Ultraschallsensors 
 ```C
