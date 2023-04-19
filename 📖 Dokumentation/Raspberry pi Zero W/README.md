@@ -7,6 +7,10 @@
 > - gpiozero
 > - time
 
+#Raspberry Pi Zero
+
+![](/Bilder/RpiPinout.png)
+
 # Servomotor
 Als Servomotor bezeichnet man alle Arten von Elektromotoren, die mit einem Positionssensor für den Rotor ausgestattet sind. Diese Art von Motor ermöglicht eine sehr gute Positionskontrolle und wird sowohl in der Industrie als auch in vielen Arduino-Projekten eingesetzt.
 
