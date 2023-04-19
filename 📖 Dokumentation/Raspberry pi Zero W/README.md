@@ -192,62 +192,65 @@ Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannun
 ![](/Bilder/Raspberry_Pi_Ultraschallsensor_Steckplatine.png)
 
 ## Programmierung des Ultraschallsensors 
-```C
-/*
- * Schulprojekt
- * Code für Ultraschallsensor hc-r04
- * Aktuell für einen ESP32
- * 
- * Alexander Huss, William Lopez, Christof Schillinger
- * Campus Schwarzwald
- */
+```Python
+"""
+Schulprojekt
+Code für Ultraschallsensor hc-r04
+Aktuell für einen Raspberry Pi
+ 
+Alexander Huss, William Lopez, Christof Schillinger
+Campus Schwarzwald
+"""
+import RPi.GPIO as GPIO
+import time
+import math
 
-#define TRIG_PIN 23 // Pin Trigger
-#define ECHO_PIN 22 // Pin Echo
+# Setze die Pin-Nummern für den Ultraschallsensor fest
+TRIG_PIN = 17
+ECHO_PIN = 18
 
-//Defnition der Variablen
-float duration_us, distance_cm;
-//Defintion der Umgebungstemperatur
-float temperature_celsius = 20.0;
+# Festlegen der Umgbungstemperatur
+temperature_ambient = 23 
 
-//Funktion zur Berechnung der Schallgeschwindigkeit 
-float calcSpeed(float temperature_celsius) {
-  return (331.6 * std::sqrt(1+((temperature_celsius)/273)));
-}
+# Initialisiere die GPIO-Pins
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(TRIG_PIN, GPIO.OUT)
+GPIO.setup(ECHO_PIN, GPIO.IN)
 
-//Funktion zur Berechnung der Entfernung
-float calcDistance(float duration_us, float temperature_celsius){
-  float v = calcSpeed(temperature_celsius);
-  distance_cm = (v * (duration_us))/(2*10000);
-  return (distance_cm);
-}
+# Funktion zur Berechnung der Entfernung auf Basis der Umgegbungstemperatur
+def calculateDistance(temperature_ambient, pulse_duration):
+  v = 311.6 * math.sqrt(1 + (temperature_ambient/273))
+  distance_cm = (v * (duration_us))/(2*10000)
+  return round(distance_cm, 2)
 
-void setup() {
-  // Definiton des Ports
-  Serial.begin (9600);
-  // Defintion des Trigger Pin aus Ausgang
-  pinMode(TRIG_PIN, OUTPUT);
-  // Defintion des Echo Pin als Eingang
-  pinMode(ECHO_PIN, INPUT);
-}
+def distance():
+    # Sende einen Trigger-Impuls von 10us an den Sensor
+    GPIO.output(TRIG_PIN, GPIO.HIGH)
+    time.sleep(0.00001)
+    GPIO.output(TRIG_PIN, GPIO.LOW)
+    
+    # Warte auf das ECHO-Signal und berechne die Dauer
+    pulse_start = time.time()
+    while GPIO.input(ECHO_PIN) == GPIO.LOW:
+        pulse_start = time.time()
+    pulse_end = time.time()
+    while GPIO.input(ECHO_PIN) == GPIO.HIGH:
+        pulse_end = time.time()
+    pulse_duration = pulse_end - pulse_start
+    
+    # Berechne die Entfernung 
+    distance = calculateDistance(temperature_ambient, pulse_duration)
+    
+    return distance
 
-void loop() {
-  // Einen Impuls von 10 microsekunden erzeugen
-  digitalWrite(TRIG_PIN, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(TRIG_PIN, LOW);
-  // Speichern der Zeitdauer des Schalls 
-  duration_us = pulseIn(ECHO_PIN, HIGH);
-  // Berechnung der Entfernung
-  distance_cm = calcDistance(duration_us, temperature_celsius);
-  // Auf Montitor ausgeben
-  Serial.print("Entfernung: ");
-  Serial.print(distance_cm);
-  Serial.println(" cm");
+# Endlosschleife zur kontinuierlichen Messung
+while True:
+    dist = distance()
+    print("Distance:", dist, "cm")
+    time.sleep(1)
 
-  delay(500);
-}
 ```
+
 # Antrieb
 Der Antrieb des selbstfahrenden Autos besteht aus meheren Komponeten. Dazu gehört ein DC Motor, ein Motortreiber sowie der Aufhängung für den Antriebsstrang. Wir konzentrieren uns in diesem Teil auf die elektronischen Bauteile. Sprich den DC Motor mit Bürsten und den Motortreiber. Der Motortreiber wird über den Microkontroller mithilfe von einem PWM-Signal angesteuert. Der Motortreiber regelt wiederum den DC Motor.
 
