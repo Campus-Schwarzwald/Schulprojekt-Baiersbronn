@@ -50,58 +50,58 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 ### Verwendung mit einem Arduino
 ![](/Bilder/RpiServo.png)
 
-    ```Python
-    ###
-    # Schulprojekt 2023
-    # Code für SG90 Servomotor und raspberry pi Zero W
-    # 
-    # Alexander Huss, William Lopez, Christof Schillinger
-    # Campus Schwarzwald
-    ###
+```Python
+###
+# Schulprojekt 2023
+# Code für SG90 Servomotor und raspberry pi Zero W
+# 
+# Alexander Huss, William Lopez, Christof Schillinger
+# Campus Schwarzwald
+###
 
-    from gpiozero import Servo
-    from time import sleep
+from gpiozero import Servo
+from time import sleep
 
-    # Servo-Objekt erstellen, Pin-Nummer angeben (hier GPIO17)
-    servo = Servo(17)
+# Servo-Objekt erstellen, Pin-Nummer angeben (hier GPIO17)
+servo = Servo(17)
 
-    while True:
-        # Servo auf die minimale Position bewegen 0°
-        servo.min()
+while True:
+    # Servo auf die minimale Position bewegen 0°
+    servo.min()
 
-        # 1 Sekunde warten
-        sleep(1)
+    # 1 Sekunde warten
+    sleep(1)
 
-        # Servo auf die maximale Position bewegen 180°
-        servo.max()
+    # Servo auf die maximale Position bewegen 180°
+    servo.max()
 
-        # 1 Sekunde warten
-        sleep(1)
+    # 1 Sekunde warten
+    sleep(1)
 
-        # Servo auf die mittlere Position bewegen 90°
-        servo.mid()
+    # Servo auf die mittlere Position bewegen 90°
+    servo.mid()
 
-        # 1 Sekunde warten
-        sleep(1)
+    # 1 Sekunde warten
+    sleep(1)
 
-        # Servo von 10° bewegen 
-        servo.step = 10
+    # Servo von 10° bewegen 
+    servo.step = 10
 
-        # 1 Sekunde warten
-        sleep(1)
+    # 1 Sekunde warten
+    sleep(1)
 
-        # Servo auf eine benutzerdefinierte Position bewegen (hier: 0.5)
-        servo.value = 0.5
+    # Servo auf eine benutzerdefinierte Position bewegen (hier: 0.5)
+    servo.value = 0.5
 
-        # 1 Sekunde warten
-        sleep(1)
+    # 1 Sekunde warten
+    sleep(1)
 
-        # Servo auf die mittlere Position zurückbewegen
-        servo.mid()
+    # Servo auf die mittlere Position zurückbewegen
+    servo.mid()
 
-        # GPIO-Schnittstelle bereinigen
-        servo.close()
-        ```
+    # GPIO-Schnittstelle bereinigen
+    servo.close()
+```
 
 
 # Ultraschall Sensor HC-SR04
