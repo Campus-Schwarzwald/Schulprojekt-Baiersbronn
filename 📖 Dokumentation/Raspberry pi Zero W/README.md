@@ -101,7 +101,7 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 
         # GPIO-Schnittstelle bereinigen
         servo.close()
-    ```
+        ```
 
 
 # Ultraschall Sensor HC-SR04
