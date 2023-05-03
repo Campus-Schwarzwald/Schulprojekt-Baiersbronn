@@ -205,53 +205,75 @@ Aktuell für einen Raspberry Pi
 Alexander Huss, William Lopez, Christof Schillinger
 Campus Schwarzwald
 """
-import RPi.GPIO as GPIO
+#Bibliotheken
 import time
 import math
+import RPi.GPIO as GPIO
 
-# Setze die Pin-Nummern für den Ultraschallsensor fest
-TRIG_PIN = 17
-ECHO_PIN = 18
+# Boardnummerierung
+GPIO.setmode(GPIO.BOARD)
 
-# Festlegen der Umgbungstemperatur
-temperature_ambient = 23 
+# Defnieren der GPIOS
+GPIO_TRIGGER = 12
+GPIO_ECHO = 18
 
-# Initialisiere die GPIO-Pins
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(TRIG_PIN, GPIO.OUT)
-GPIO.setup(ECHO_PIN, GPIO.IN)
+# Definieren der Umgebungstemperatur
+T_um = 22.5
 
-# Funktion zur Berechnung der Entfernung auf Basis der Umgegbungstemperatur
-def calculateDistance(temperature_ambient, pulse_duration):
-  v = 311.6 * math.sqrt(1 + (temperature_ambient/273))
-  distance_cm = (v * (duration_us))/(2*10000)
-  return round(distance_cm, 2)
+#Setup
+GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)
 
+def calculateDistance(TimeElapsed, T_um):
+    v = 331.6 * math.sqrt(1 + (T_um / 273))
+    print(v)
+    s = ((v * TimeElapsed)/2)*100
+    print(s)
+    return s
+
+
+#Richtung der GPIO-Pins festlegen (IN / OUT)
+GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)
+ 
 def distance():
-    # Sende einen Trigger-Impuls von 10us an den Sensor
-    GPIO.output(TRIG_PIN, GPIO.HIGH)
+    # setze Trigger auf HIGH
+    GPIO.output(GPIO_TRIGGER, True)
+ 
+    # setze Trigger nach 0.01ms aus LOW
     time.sleep(0.00001)
-    GPIO.output(TRIG_PIN, GPIO.LOW)
-    
-    # Warte auf das ECHO-Signal und berechne die Dauer
-    pulse_start = time.time()
-    while GPIO.input(ECHO_PIN) == GPIO.LOW:
-        pulse_start = time.time()
-    pulse_end = time.time()
-    while GPIO.input(ECHO_PIN) == GPIO.HIGH:
-        pulse_end = time.time()
-    pulse_duration = pulse_end - pulse_start
-    
-    # Berechne die Entfernung 
-    distance = calculateDistance(temperature_ambient, pulse_duration)
-    
-    return distance
+    GPIO.output(GPIO_TRIGGER, False)
+ 
+    StartZeit = time.time()
+    StopZeit = time.time()
+ 
+    # speichere Startzeit
+    while GPIO.input(GPIO_ECHO) == 0:
+        StartZeit = time.time()
+ 
+    # speichere Ankunftszeit
+    while GPIO.input(GPIO_ECHO) == 1:
+        StopZeit = time.time()
+ 
+    # Zeit Differenz zwischen Start und Ankunft
+    TimeElapsed = StopZeit - StartZeit
 
-# Endlosschleife zur kontinuierlichen Messung
-while True:
-    dist = distance()
-    print("Distance:", dist, "cm")
-    time.sleep(1)
+    # Abstand berechnen
+    distance = calculateDistance(TimeElapsed, T_um)
+ 
+    return distance
+ 
+if __name__ == '__main__':
+    try:
+        while True:
+            abstand = distance()
+            print ("Gemessene Entfernung = %.1f cm" % abstand)
+            time.sleep(1)
+ 
+        # Beim Abbruch durch STRG+C resetten
+    except KeyboardInterrupt:
+        print("Messung vom User gestoppt")
+        GPIO.cleanup()
 
 ```
 
