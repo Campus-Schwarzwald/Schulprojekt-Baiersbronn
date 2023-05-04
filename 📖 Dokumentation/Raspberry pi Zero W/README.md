@@ -1,11 +1,13 @@
 # :computer: Programmierung
 
+> **Warning**
+> Thonny 3.3.13 ist benötigt um via ssh zu programmieren
 
 > **Warning**
 > Bevor ihr beginnt, vergewissert euch, dass die folgenden Bibliotheken auf eurem Raspberry Pi Zero W installiert sind:
-> - GPIO
-> - gpiozero
+> - rpi.gpios
 > - time
+> - math
 
 # Raspberry Pi Zero
 
@@ -59,48 +61,36 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 # Campus Schwarzwald
 ###
 
-from gpiozero import Servo
-from time import sleep
+import RPi.GPIO as GPIO
+import time
 
-# Servo-Objekt erstellen, Pin-Nummer angeben (hier GPIO17)
-servo = Servo(17)
+servoPIN = 17
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(servoPIN, GPIO.OUT)
 
-while True:
-    # Servo auf die minimale Position bewegen 0°
-    servo.min()
-
-    # 1 Sekunde warten
-    sleep(1)
-
-    # Servo auf die maximale Position bewegen 180°
-    servo.max()
-
-    # 1 Sekunde warten
-    sleep(1)
-
-    # Servo auf die mittlere Position bewegen 90°
-    servo.mid()
-
-    # 1 Sekunde warten
-    sleep(1)
-
-    # Servo von 10° bewegen 
-    servo.step = 10
-
-    # 1 Sekunde warten
-    sleep(1)
-
-    # Servo auf eine benutzerdefinierte Position bewegen (hier: 0.5)
-    servo.value = 0.5
-
-    # 1 Sekunde warten
-    sleep(1)
-
-    # Servo auf die mittlere Position zurückbewegen
-    servo.mid()
-
-    # GPIO-Schnittstelle bereinigen
-    servo.close()
+p = GPIO.PWM(servoPIN, 50) # GPIO 17 for PWM with 50Hz
+p.start(2.5) # Initialization
+try:
+  while True:
+    p.ChangeDutyCycle(5)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(7.5)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(10)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(12.5)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(10)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(7.5)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(5)
+    time.sleep(0.5)
+    p.ChangeDutyCycle(2.5)
+    time.sleep(0.5)
+except KeyboardInterrupt:
+  p.stop()
+  GPIO.cleanup()
 ```
 
 
