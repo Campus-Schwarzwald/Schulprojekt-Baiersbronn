@@ -3,12 +3,6 @@
 > **Warning**
 > Thonny 3.3.13 ist benötigt um via ssh zu programmieren
 
-> **Warning**
-> Bevor ihr beginnt, vergewissert euch, dass die folgenden Bibliotheken auf eurem Raspberry Pi Zero W installiert sind:
-> - rpi.gpios
-> - time
-> - math
-
 # Raspberry Pi Zero
 
 ![](/Bilder/RpiPinout.png)
