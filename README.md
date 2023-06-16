@@ -1,4 +1,4 @@
-# Die Höle der Löwen Campus Schwarzwald Edition
+# Die Höhle der Löwen Campus Schwarzwald Edition
 
 ![](Bilder/Loewe.png?raw=true)
 
