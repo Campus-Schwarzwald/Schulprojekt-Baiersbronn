@@ -1,5 +1,3 @@
-# Projekt Selbstfahrendes Auto Campus Schwarzwald
-
 ## Einleitung
 
 Eure Aufgabe in diesem Projekt ist ein selbstfahrendes Auto zu desginen, entwicklen und zu bauen. Dabei bildet ihr Teams mit jeweils 5 Teilnehmern und entwickelt zusammen eure Vision von einem selbstfahrenden Auto. Die Aufgaben im Projekt umfassen den ersten Entwurf, die mechanische Konstruktion, des Projektmanagements, den Aufbau der elektrischen Schaltung sowie die Programmierung und Implementierung eines Algorithmus der dem Auto ermöglicht selbständig Hinderissen auszuweichen.
@@ -35,6 +33,7 @@ Für die Fertigstellung Ihres Prototyps habt ihr vier Termine zur Verfügung. Da
 - **::microphone: Pitch**
 
     Vorstellung Ihres Teams und Ihres Projekts sowie Test Ihres Prototyps auf unserer Teststrecke :construction:
+
 
 ## Projektrollen
 ### Projektmanagement
@@ -72,6 +71,3 @@ Eure Aufgabe ist es die einzelnen elktrotechnischen Komponeten zu verbinden und 
 ![](/Bilder/Auto_Schulprojekt.png)
 (Beispiel) <br>
 Der Antrieb des Autos wird zur Verfügung gestellt, jedoch ohne Achse und Räder.
-
-
-

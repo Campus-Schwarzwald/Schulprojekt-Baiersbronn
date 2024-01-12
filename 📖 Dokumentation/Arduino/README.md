@@ -39,38 +39,39 @@ Ein Servomotor wird durch das Senden einer Reihe von Impulsen über die Signalle
 ### Verwendung mit einem Arduino
 ![](/Bilder/ArduinoServo.jpg)
 
-```C
-/*
- * Schulprojekt
- * Code für SG90 Servomotor
- * 
- * Alexander Huss, William Lopez, Christof Schillinger
- * Campus Schwarzwald
- */
+    ```C
+    /*
+    * Schulprojekt
+    * Code für SG90 Servomotor
+    * 
+    * Alexander Huss, William Lopez, Christof Schillinger
+    * Campus Schwarzwald
+    */
 
-#include <Servo.h>
+    #include <Servo.h>
 
-Servo myservo;  // Erstellen eines Servo-Objekts zur Steuerung eines Servomotors
+    Servo myservo;  // Erstellen eines Servo-Objekts zur Steuerung eines Servomotors
 
-int pos = 0;    // Variable zur Speicherung der Servoposition
+    int pos = 0;    // Variable zur Speicherung der Servoposition
 
-void setup() {
-  myservo.attach(6);  // verbindet das Servomotor an Pin 6 
-}
+    void setup() {
+      myservo.attach(6);  // verbindet das Servomotor an Pin 6 
+    }
 
-- Code snipets to test the motors
-void loop() {
-  for (pos = 0; pos <= 180; pos += 1) { // geht von 0 Grad bis 180 Grad in Schritten von 1 Grad
-  
-    myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
-    delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
-  }
-  for (pos = 180; pos >= 0; pos -= 1) { // geht von 180 Grad bis 0 Grad in Schritten von 1 Grad
-    myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
-    delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
-  }
-}
-```
+    - Code snipets to test the motors
+    void loop() {
+      for (pos = 0; pos <= 180; pos += 1) { // geht von 0 Grad bis 180 Grad in Schritten von 1 Grad
+      
+        myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+        delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+      }
+      for (pos = 180; pos >= 0; pos -= 1) { // geht von 180 Grad bis 0 Grad in Schritten von 1 Grad
+        myservo.write(pos);              // Das Servo soll die Position in der Variablen 'pos' anfahren.
+        delay(15);                       // Es wird 15ms gewartet, bis das Servo die Position erreicht hat.
+      }
+    }
+    ```
+
 
 # Ultraschall Sensor HC-SR04
 Ultraschallsensoren eignen sich bestens dafür, Abstände zu messen und Objekte berührungslos zu erkennen.Wichtig ist, dass der Gegenstand aus einem Material besteht, das den Schall reflektieren kann. Objekte aus Metall, Holz oder Kunststoff eignen sich für die Messung folglich sehr gut. Transparente Flüssigkeiten oder Gegenstände sind kein Hindernis für den Sensor, dasselbe gilt für Schmutz, Staubwolken oder Nebel.
@@ -160,14 +161,9 @@ Das ist die finale Gleichung für die Schallgeschwindigkeit. Zusammen mit unsere
 ## Aufbau der Schaltung für den Ultraschallsensor
 Die Schaltung ist relativ einfach Aufbgebaut. Der Arduino dient hier als Spannungsquelle. Wie man die einzelnen Kontakte miteinander verbindet findet ihr in dem Schaltplan.
 
-## Arduino
 ![](/Bilder/Ultraschallsensor_Steckplatine.jpg)
 
-## Raspberry Pi
-![](/Bilder/Raspberry_Pi_Ultraschallsensor_Steckplatine.png)
-
 ## Programmierung des Ultraschallsensors 
-## C - Programm
 ```C
 /*
  * Schulprojekt
@@ -223,65 +219,6 @@ void loop() {
 
   delay(500);
 }
-```
-## Python - Programm
-```Python
-"""
-Schulprojekt
-Code für Ultraschallsensor hc-r04
-Aktuell für einen Raspberry Pi
- 
-Alexander Huss, William Lopez, Christof Schillinger
-Campus Schwarzwald
-"""
-import RPi.GPIO as GPIO
-import time
-import math
-
-# Setze die Pin-Nummern für den Ultraschallsensor fest
-TRIG_PIN = 17
-ECHO_PIN = 18
-
-# Festlegen der Umgbungstemperatur
-temperature_ambient = 23 
-
-# Initialisiere die GPIO-Pins
-GPIO.setmode(GPIO.BCM)
-GPIO.setup(TRIG_PIN, GPIO.OUT)
-GPIO.setup(ECHO_PIN, GPIO.IN)
-
-# Funktion zur Berechnung der Entfernung auf Basis der Umgegbungstemperatur
-def calculateDistance(temperature_ambient, pulse_duration):
-  v = 311.6 * math.sqrt(1 + (temperature_ambient/273))
-  distance_cm = (v * (duration_us))/(2*10000)
-  return round(distance_cm, 2)
-
-def distance():
-    # Sende einen Trigger-Impuls von 10us an den Sensor
-    GPIO.output(TRIG_PIN, GPIO.HIGH)
-    time.sleep(0.00001)
-    GPIO.output(TRIG_PIN, GPIO.LOW)
-    
-    # Warte auf das ECHO-Signal und berechne die Dauer
-    pulse_start = time.time()
-    while GPIO.input(ECHO_PIN) == GPIO.LOW:
-        pulse_start = time.time()
-    pulse_end = time.time()
-    while GPIO.input(ECHO_PIN) == GPIO.HIGH:
-        pulse_end = time.time()
-    pulse_duration = pulse_end - pulse_start
-    
-    # Berechne die Entfernung 
-    distance = calculateDistance(temperature_ambient, pulse_duration)
-    
-    return distance
-
-# Endlosschleife zur kontinuierlichen Messung
-while True:
-    dist = distance()
-    print("Distance:", dist, "cm")
-    time.sleep(1)
-
 ```
 # Antrieb
 Der Antrieb des selbstfahrenden Autos besteht aus meheren Komponeten. Dazu gehört ein DC Motor, ein Motortreiber sowie der Aufhängung für den Antriebsstrang. Wir konzentrieren uns in diesem Teil auf die elektronischen Bauteile. Sprich den DC Motor mit Bürsten und den Motortreiber. Der Motortreiber wird über den Microkontroller mithilfe von einem PWM-Signal angesteuert. Der Motortreiber regelt wiederum den DC Motor.
@@ -407,12 +344,3 @@ void loop()
   delay(2000);
 }
 ```
-
-# Pro LED 
-
-https://blog.berrybase.de/blog/2020/11/09/neopixel-ring-mit-arduino-ansteuern-so-wirds-gemacht/
-
-
-
-
-
