@@ -1,7 +1,5 @@
 # :briefcase: Projektmanagement
-
-Als Projektmanager sind Sie dafür verantwortlich, Ihr Team während des gesamten Projekts anzuleiten, zu begleiten und zu beraten.
-Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abläuft, und Sie sind auch dafür verantwortlich, in jeder Sitzung Ihre Fortschritte zu präsentieren und eine Teambesprechung durchzuführen.
+Als Projektmanager seit ihr für das Projekt, euer Team und dessen Erfolg verantwortlich. Ihr begleitet euer Team über die gesamte Projektlaufzeit, koordiniert die einzelen Positionen und sorgt dafür das das Projekt fristgerecht abläuft. Dafür wird am Anfang jedes Termins eine Teambesprechung stattfinden in der ihr euer Team auf die anstehenden Aufgaben vorbereitet. Des weiteren wird aktuelle Projektstand einem Campus Mitarbeiter vorgestellt.
 
 # :date: Zeitplan
 
@@ -11,8 +9,9 @@ Sie sind dafür verantwortlich, dass das Projekt effizient und termingerecht abl
 
 **:pencil2: Aufgaben:**
 - Einen Workshop mit dem Team leiten, um ein Fahrzeugdesign festzulegen.
-- Die Position der einzlenen Teammitgleider bestimmen und festzulegen, wie das verfügbare Geld investiert werden soll.
+- Die Position der einzlenen Teammitgleider bestimmen und festzulegen
 - Die Kommunikation innerhalb des Teams erleichtern
+- Erstellung eines Projekt- sowie eines Kostenplans
 
 ## Termin 2:
 **:dart: Ziel:** Entwurf und Bau Ihres Fahrzeugs
