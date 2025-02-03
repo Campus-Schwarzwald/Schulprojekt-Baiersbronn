@@ -71,6 +71,8 @@ Eure Aufgabe ist es die einzelnen elktrotechnischen Komponeten zu verbinden und 
 ## Beispiel
 ![](/Bilder/Auto_Schulprojekt.png)
 (Beispiel) <br>
+![](/Bilder/beispielauto.jpeg)
+(Beispiel) <br>
 Der Antrieb des Autos wird zur Verfügung gestellt, jedoch ohne Achse und Räder.
 
 
